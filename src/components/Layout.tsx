@@ -5,7 +5,7 @@ import Translator from "./children/Translator";
 
 const Layout = ()=> {
   return (
-    <div className="container mx-auto">
+    <div className="mx-auto">
       <Header />
       <MainContent />
       <Translator />

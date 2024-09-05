@@ -21,16 +21,18 @@ const followLinks ={
 
 const MainContent = () => {
     return (
-        <main className="py-8">
+        <main>
             <Hero />
-            <div className="grid grid-cols-12 gap-4">
-            <div className="col-span-8">
-                <Subtitle />
+
+            <div className="flex flex-col md:flex-row justify-center mt-8">
+                <div className="flex flex-col md:flex-col w-full md:w-2/4 mr-4">
+                    <Subtitle />
+                </div>
+                <div className="flex flex-col w-full md:w-1/4">
+                    <Sidebar relatedPages={relatedPages} />
+                </div>
             </div>
-            <div className="col-span-4">
-                <Sidebar relatedPages={relatedPages}/>
-            </div>
-            </div>
+
             <Connections followLinks={followLinks}/>
         </main>
     );

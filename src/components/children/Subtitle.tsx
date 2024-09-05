@@ -46,13 +46,13 @@ const mainContent: SectionItem[] = [
 
 const Subtitle = () => {
     return (
-        <div className="container flex-col">
+        <div className="flex-col">
 
             {mainContent.map((content) => (
-                <section key={content.id} className="bg-slate-100 border-2 border-slate-200 rounded p-4 m-8">
-                    <h2 className="text-3xl font-bold underline text-blue-600">{content.title}</h2>
+                <section key={content.id} className="bg-slate-100 border-2 border-slate-200 rounded mb-8 p-4">
+                    <h2 className="text-3xl font-bold underline text-burnt-orange">{content.title}</h2>
                     <p className="font-medium">{content.subtitle}</p>
-                    <a href={content.href}>Link here</a>
+                    {/* <a href={content.href}>Link here</a> */}
                 </section>
             ))}
 

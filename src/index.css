@@ -6,9 +6,6 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  
-
-  
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -30,11 +27,17 @@
   display: none !important;
 }
 
+#hero {
+  max-height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
 
 body {
   top: 0px !important;
   margin: 0;
-  display: flex;
+  /* display: flex; */
   min-width: 320px;
   min-height: 100vh;
 }

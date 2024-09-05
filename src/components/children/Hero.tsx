@@ -1,10 +1,8 @@
 const Hero = () => {
     return (
-        <div className="bg-gray-200 p-8">
-          {/* Image goes here */}
-          <h2 className="text-3xl font-bold">Upcoming Meetings</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+        
+          <img src="/LASHP_overview.png" alt="Los Angeles State Historic Park" className="h-64 w-full object-cover" id="hero" />
+
       );
 }
 
