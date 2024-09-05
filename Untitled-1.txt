@@ -1,0 +1,8 @@
+Public Facing?
+Need a design.
+
+
+Answers:
+Live by 9/12
+Hosted on its own, need custom URL.
+Dropdowns for page language translations with google translate plugin
