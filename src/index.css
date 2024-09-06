@@ -49,8 +49,9 @@
 
 #translation-logo {
   width: 75px;
-  height: 75px;
+  height: 56px;
   object-fit: contain;
+  margin: 0.5rem;
 }
 
 

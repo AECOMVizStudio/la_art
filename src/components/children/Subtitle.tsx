@@ -49,7 +49,7 @@ const Subtitle = () => {
         <div className="flex-col mx-2">
 
             {mainContent.map((content) => (
-                <section key={content.id} className="bg-slate-100 border-2 border-slate-200 rounded mb-8 p-8">
+                <section tabIndex={0} key={content.id} className="bg-slate-100 border-2 border-slate-200 rounded mb-8 p-8">
                     <h2 className="text-3xl font-bold underline text-burnt-orange">{content.title}</h2>
                     <p className="font-medium">{content.subtitle}</p>
                     {/* <a href={content.href}>Link here</a> */}

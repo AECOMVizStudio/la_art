@@ -9,7 +9,7 @@ interface ConnectionsProps {
   
 function Connections({ followLinks }: ConnectionsProps) {
   return (
-    <div className="mt-8 bg-dark-grey text-light-grey p-4 md:py-4 flex flex-col md:flex-row justify-around">
+    <div className="bg-dark-grey text-light-grey px-4 py-10 flex flex-col md:flex-row justify-around">
       <div className="flex flex-col w-full md:w-1/4">
 
       <h3 className="text-2xl font">Connect with Parks and Rec</h3>
