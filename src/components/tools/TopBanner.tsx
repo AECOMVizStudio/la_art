@@ -1,4 +1,3 @@
-
 const TopBanner: React.FC = () => {
    return (
         <div className='bg-burnt-orange flex justify-center items-center'>
@@ -8,6 +7,5 @@ const TopBanner: React.FC = () => {
     );
     
 };
-
 
 export default TopBanner;
