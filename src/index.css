@@ -47,6 +47,12 @@
   object-fit: contain;
 }
 
+#translation-logo {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+
 
 body {
   top: 0px !important;

@@ -10,8 +10,7 @@ const Translator = () => {
     }, []);
 
   return(
-    <div className="fixed bottom-4 right-4 z-50 bg-slate-100 border rounded shadow">
-
+    <div className="z-50 max-w-fit bg-slate-100 border shadow">
         <div id="google_translate_element">
     </div>
 
