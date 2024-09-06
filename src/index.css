@@ -28,9 +28,17 @@
 }
 
 #hero {
-  max-height: 350px;
+  min-height: 400px;
   width: 100%;
   object-fit: cover;
+  object-position: 100% 25%;
+}
+
+
+#lashplogo {
+  max-height: 100px;
+  width: auto;
+  object-fit: contain;
 }
 
 
