@@ -14,8 +14,9 @@ const relatedPages = [
 const followLinks ={
     facebook: "https://www.facebook.com",
     twitter: "https://www.twitter.com",
+    youtube: "https://www.youtube.com",
     instagram: "https://www.instagram.com",
-    mailer: "https://www.mailer.com",
+    wordpress: "https://www.parks.ca.gov/Programs",
 }
 
 
