@@ -54,6 +54,10 @@
   margin: 0.5rem;
 }
 
+.svg{
+  width: 20px;
+}
+
 
 body {
   top: 0px !important;
