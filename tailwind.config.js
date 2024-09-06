@@ -10,7 +10,8 @@ export default {
         'burnt-orange': '#d68100',
         'medium-blue': '#00679a',
         'dark-grey': '#212529',
-        'light-grey': '#f7f7f7'
+        'light-grey': '#f7f7f7',
+        'night':'#1C2023',
       },
     },
     plugins: [],
