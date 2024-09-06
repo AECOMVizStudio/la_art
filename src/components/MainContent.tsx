@@ -3,13 +3,7 @@ import Subtitle from "./children/Subtitle";
 import Sidebar from "./children/Sidebar";
 import Connections from "./children/Connections";
 
-const relatedPages = [
-    "Page 1",
-    "Page 2",
-    "Page 3",
-    "Page 4",
-    "Page 5",
-  ];
+
 
 const followLinks ={
     facebook: "https://www.facebook.com",
@@ -30,7 +24,7 @@ const MainContent = () => {
                     <Subtitle />
                 </div>
                 <div className="flex flex-col w-full md:w-1/4">
-                    <Sidebar relatedPages={relatedPages} />
+                    <Sidebar />
                 </div>
             </div>
 
