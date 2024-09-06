@@ -7,7 +7,7 @@ function Footer() {
     <footer className="bg-night text-light-grey p-4">
       <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="flex-col md:flex md:flex-row w-full md:w-1/4 items-center md:justify-evenly">
-          <img src="/CalStateParkLogo.png" alt="california government logo" id='footer-logo'/>
+          <img src="/CalStateParkLogo.png" alt="california government logo" id='footer-logo' loading="lazy"/>
           <p className="md:px-4">© {formattedDate} Los Angeles State Historic Park</p>
         </div>
         
