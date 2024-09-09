@@ -45,11 +45,11 @@ function Connections({ followLinks }: ConnectionsProps) {
                 <img src="./icons/instagram.svg" className="svg"></img>
               </a>
             </li>
-            {/* <li>
-              <a href={followLinks.wordpress} target="_blank" rel="noopener noreferrer">
+            <li>
+              <a className="bg-white" href={followLinks.wordpress} target="_blank" rel="noopener noreferrer">
                 <img src="./icons/wordpress.svg" className="svg"></img>
               </a>
-            </li> */}
+            </li>
           </ul>
           <h3 className="text-lg font-normal mt-4">Contact Us</h3>
           <p className="">Have a question? Contact us <a className="underline" href="https://www.parks.ca.gov/?page_id=23110" target="_blank" rel="noopener noreferrer">here</a></p>

@@ -10,7 +10,7 @@ const followLinks ={
     twitter: "https://x.com/CAStateParks",
     youtube: "https://www.youtube.com/user/CaliforniaStateParks",
     instagram: "https://www.instagram.com/castateparks/",
-    wordpress: "https://www.parks.ca.gov/Programs",
+    wordpress: "https://castateparks.wordpress.com/",
 }
 
 
