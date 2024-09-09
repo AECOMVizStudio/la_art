@@ -6,9 +6,9 @@ import Connections from "./children/Connections";
 
 
 const followLinks ={
-    facebook: "https://www.facebook.com",
-    twitter: "https://www.twitter.com",
-    youtube: "https://www.youtube.com",
+    facebook: "https://m.facebook.com/CaliforniaStateParks/",
+    twitter: "https://x.com/CAStateParks",
+    youtube: "https://www.youtube.com/user/CaliforniaStateParks",
     instagram: "https://www.instagram.com",
     wordpress: "https://www.parks.ca.gov/Programs",
 }
