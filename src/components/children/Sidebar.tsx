@@ -30,7 +30,7 @@ const Sidebar = () => {
           </div>
             <div className="p-6">
               <h3 className="text-lg font-bold">Join our email list!</h3>
-              <a href="https://docs.google.com/forms/d/1dku_08vhyPRPaIfBE1B6JNZXp-qnZNz2UwVhYjKqgbk/viewform?edit_requested=true" className="text-medium-blue hover:underline">
+              <a href="https://docs.google.com/forms/d/1dku_08vhyPRPaIfBE1B6JNZXp-qnZNz2UwVhYjKqgbk/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">
                 Sign up to receive LASHP General Plan Amendment Information
               </a>
             </div>
