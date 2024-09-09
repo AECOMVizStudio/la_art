@@ -4,11 +4,12 @@ interface Pages {
 }
  
 const relatedPages:Pages[] = [
-  {name: "Page 1", link: "#"},
-  {name: "Page 2", link: "#"},
-  {name: "Page 3", link: "#"},
-  {name: "Page 4", link: "#"},
-  {name: "Page 5", link: "#"},
+  {name: "LAHSP", link: "https://www.parks.ca.gov/?page_id=22272"},
+  {name: "Check out our blog", link: "#"},
+  {name: "Archaeological Excavation at LASHP ", link: "https://www.parks.ca.gov/?page_id=25540"},
+  {name: "LASHP Master Development Plan", link: "https://www.parks.ca.gov/?page_id=26953"},
+  {name: "Volunteer with LA River State Park Partners", link: "https://www.parks.ca.gov/?page_id=25858"},
+  {name: "LASHP General Plan", link: "https://lastatehistoricpark.org/wp-content/uploads/2021/07/LASHP-General-Plan.pdf"},
 ];
 
 const Sidebar = () => {
@@ -19,8 +20,8 @@ const Sidebar = () => {
             <h3 className="text-lg font-bold">Related Pages</h3>
             <ul className="list-disc">
               {relatedPages.map((page) => (
-                <li key={page.name} className="p-2 mx-6">
-                  <a href={page.link} className="hover:underline">
+                <li key={page.name} className="p-2 mx-6 underline">
+                  <a href={page.link}>
                     {page.name}
                   </a>
                 </li>
@@ -28,8 +29,8 @@ const Sidebar = () => {
             </ul>
           </div>
             <div className="p-6">
-              <h3 className="text-lg font-bold">Join our email List</h3>
-              <a href="#" className="text-medium-blue hover:underline">
+              <h3 className="text-lg font-bold">Join our email list!</h3>
+              <a href="https://docs.google.com/forms/d/1dku_08vhyPRPaIfBE1B6JNZXp-qnZNz2UwVhYjKqgbk/viewform?edit_requested=true" className="text-medium-blue hover:underline">
                 Sign up to receive LASHP General Plan Amendment Information
               </a>
             </div>
