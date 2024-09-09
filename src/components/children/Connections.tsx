@@ -6,7 +6,7 @@ interface ConnectionsProps {
       instagram: string;
       wordpress: string;
     };
-  }
+}
   
 function Connections({ followLinks }: ConnectionsProps) {
   return (
@@ -16,7 +16,10 @@ function Connections({ followLinks }: ConnectionsProps) {
       <h3 className="text-2xl font-normal">Connect with Parks and Rec</h3>
       <p>Sign up to receive the latest State Parks news directly to your email:</p>
 
-      <button className="bg-white text-black font-bold rounded-xl px-8 py-2 my-4 max-w-fit uppercase">Subscribe Now</button>
+      <a href="https://public.govdelivery.com/accounts/CNRA/signup/31266/" target="_blank" rel="noopener noreferrer">
+      
+      <button className="bg-white text-black font-bold rounded-xl px-8 py-2 my-4 max-w-fit uppercase hover:scale-110 transition duration-300 ease-in-out">Subscribe Now</button>
+      </a>
       </div>
 
       <div className="flex flex-col w-full md:w-1/4">
@@ -24,32 +27,32 @@ function Connections({ followLinks }: ConnectionsProps) {
           <ul className="flex space-x-4">
             <li>
               <a href={followLinks.facebook} target="_blank" rel="noopener noreferrer">
-                <i className=" text-blue-500">FB</i>
+                <img src="./icons/facebook.svg" className="svg"></img>
               </a>
             </li>
             <li>
               <a href={followLinks.twitter} target="_blank" rel="noopener noreferrer">
-                <i className="text-blue-500">X</i>
+                <img src="./icons/x.svg" className="svg"></img>
               </a>
             </li>
             <li>
               <a href={followLinks.youtube} target="_blank" rel="noopener noreferrer">
-                <i className="text-blue-500">YT</i>
+                <img src="./icons/youtube.svg" className="svg"></img>
               </a>
             </li>
             <li>
               <a href={followLinks.instagram} target="_blank" rel="noopener noreferrer">
-                <i className=" text-blue-500">Insta</i>
+                <img src="./icons/instagram.svg" className="svg"></img>
               </a>
             </li>
             <li>
-              <a href={followLinks.wordpress} target="_blank" rel="noopener noreferrer">
-                <i className="text-blue-500">Website</i>
+              <a className="bg-white" href={followLinks.wordpress} target="_blank" rel="noopener noreferrer">
+                <img src="./icons/wordpress.svg" className="svg"></img>
               </a>
             </li>
           </ul>
           <h3 className="text-lg font-normal mt-4">Contact Us</h3>
-          <p className="">Have a question? Contact us here</p>
+          <p className="">Have a question? Contact us <a className="underline" href="https://www.parks.ca.gov/?page_id=23110" target="_blank" rel="noopener noreferrer">here</a></p>
       </div>
 
       

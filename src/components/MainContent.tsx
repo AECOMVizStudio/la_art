@@ -3,20 +3,14 @@ import Subtitle from "./children/Subtitle";
 import Sidebar from "./children/Sidebar";
 import Connections from "./children/Connections";
 
-const relatedPages = [
-    "Page 1",
-    "Page 2",
-    "Page 3",
-    "Page 4",
-    "Page 5",
-  ];
+
 
 const followLinks ={
-    facebook: "https://www.facebook.com",
-    twitter: "https://www.twitter.com",
-    youtube: "https://www.youtube.com",
-    instagram: "https://www.instagram.com",
-    wordpress: "https://www.parks.ca.gov/Programs",
+    facebook: "https://m.facebook.com/CaliforniaStateParks/",
+    twitter: "https://x.com/CAStateParks",
+    youtube: "https://www.youtube.com/user/CaliforniaStateParks",
+    instagram: "https://www.instagram.com/castateparks/",
+    wordpress: "https://castateparks.wordpress.com/",
 }
 
 
@@ -30,7 +24,7 @@ const MainContent = () => {
                     <Subtitle />
                 </div>
                 <div className="flex flex-col w-full md:w-1/4">
-                    <Sidebar relatedPages={relatedPages} />
+                    <Sidebar />
                 </div>
             </div>
 
