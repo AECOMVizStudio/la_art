@@ -8,7 +8,7 @@ const Background = () => {
           >
   
           <h2 className="text-3xl font-bold underline text-burnt-orange">
-          LA ART Project Background and Status:     
+          LA ART Project Background and Status     
           </h2>
   
           <p className="font-medium pt-4">

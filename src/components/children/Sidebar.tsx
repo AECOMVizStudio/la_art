@@ -4,7 +4,7 @@ interface Pages {
 }
  
 const relatedPages:Pages[] = [
-  {name: "LAHSP", link: "https://www.parks.ca.gov/?page_id=22272"},
+  {name: "LASHP", link: "https://www.parks.ca.gov/?page_id=22272"},
   {name: "Check out our blog", link: "#"},
   {name: "Archaeological Excavation at LASHP ", link: "https://www.parks.ca.gov/?page_id=25540"},
   {name: "LASHP Master Development Plan", link: "https://www.parks.ca.gov/?page_id=26953"},
@@ -21,7 +21,7 @@ const Sidebar = () => {
             <ul className="list-disc">
               {relatedPages.map((page) => (
                 <li key={page.name} className="p-2 mx-6 underline">
-                  <a href={page.link}>
+                  <a href={page.link} target="_blank" rel="noopener noreferrer">
                     {page.name}
                   </a>
                 </li>
@@ -31,7 +31,7 @@ const Sidebar = () => {
             <div className="p-6">
               <h3 className="text-lg font-bold">Join our email list!</h3>
               <a href="https://docs.google.com/forms/d/1dku_08vhyPRPaIfBE1B6JNZXp-qnZNz2UwVhYjKqgbk/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">
-                Sign up to receive LASHP General Plan Amendment Information
+              Sign up to receive updates on the LASHP General Plan Amendment
               </a>
             </div>
         </div>

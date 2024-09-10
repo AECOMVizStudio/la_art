@@ -8,7 +8,7 @@ const About = () => {
           >
   
           <h2 className="text-3xl font-bold underline text-burnt-orange">
-          About the GPA Process:      
+          About the GPA Process     
           </h2>
   
           <p className="font-medium pt-4">
