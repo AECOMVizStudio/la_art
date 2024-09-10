@@ -8,7 +8,7 @@ import FAQ from "./Headings/FAQ"
 
 const Subtitle = () => {
     return (
-        <div className="flex-col mx-2">
+        <div className="flex-col">
             <GeneralPlan />
             {/* <Diagram /> */}
             <About />
