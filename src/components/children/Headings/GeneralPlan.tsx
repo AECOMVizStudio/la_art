@@ -1,3 +1,5 @@
+import Diagram from "./Diagram"
+
 const GeneralPlan = () => {
   return (
     
@@ -21,7 +23,9 @@ const GeneralPlan = () => {
             here.
             </a>
                 
-                </p>
+          </p>
+
+          <Diagram />
     
         </section>
         

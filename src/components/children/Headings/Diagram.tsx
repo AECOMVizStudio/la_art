@@ -1,14 +1,10 @@
 const Diagram = () => {
 
     return (
-      
-        <section 
-              tabIndex={0} 
-              
-              className="bg-slate-100 border-2 border-slate-200 rounded mb-8 p-8"
-          >
+      <div className="ml-4 mt-4">
+
   
-          <h2 className="text-3xl font-bold underline text-burnt-orange">
+          <h2 className="text-2xl font-bold underline text-burnt-orange">
           Process Diagram      
           </h2>
   
@@ -19,8 +15,7 @@ const Diagram = () => {
               rel="noopener noreferrer"
               className="text-blue-500 underline"
               >State Parks General Plan Amendment Process</a></p>
-          
-          </section>
+              </div>
           
     )
   }
