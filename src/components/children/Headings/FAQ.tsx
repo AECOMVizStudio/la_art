@@ -11,7 +11,7 @@ const FAQ = () => {
           FAQ   
           </h2>
   
-          <p className="font-medium pt-4">Check back for updates. </p>
+          <p className="font-medium pt-4">Updated FAQs coming soon.</p>
         
       
           </section>
