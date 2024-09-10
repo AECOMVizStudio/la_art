@@ -4,7 +4,7 @@ interface Pages {
 }
  
 const relatedPages:Pages[] = [
-  {name: "LAHSP", link: "https://www.parks.ca.gov/?page_id=22272"},
+  {name: "LASHP", link: "https://www.parks.ca.gov/?page_id=22272"},
   {name: "Check out our blog", link: "#"},
   {name: "Archaeological Excavation at LASHP ", link: "https://www.parks.ca.gov/?page_id=25540"},
   {name: "LASHP Master Development Plan", link: "https://www.parks.ca.gov/?page_id=26953"},

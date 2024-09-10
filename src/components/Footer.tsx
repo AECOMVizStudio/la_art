@@ -14,16 +14,6 @@ function Footer() {
         <ul className="w-full md:w-2/4 lg:flex lg:flex-row lg:justify-evenly py-2 md:pl-8">
           <li>
             <a href="#" className="hover:underline">
-              About Us
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:underline">
-              FAQ
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:underline">
               Conditions of Use
             </a>
           </li>

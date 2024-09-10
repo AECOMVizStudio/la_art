@@ -27,27 +27,27 @@ function Connections({ followLinks }: ConnectionsProps) {
           <ul className="flex space-x-4">
             <li>
               <a href={followLinks.facebook} target="_blank" rel="noopener noreferrer">
-                <img src="./icons/facebook.svg" className="svg"></img>
+                <img src="./icons/facebook.svg" className="svg" alt="facebook"></img>
               </a>
             </li>
             <li>
               <a href={followLinks.twitter} target="_blank" rel="noopener noreferrer">
-                <img src="./icons/x.svg" className="svg"></img>
+                <img src="./icons/x.svg" className="svg" alt="x.com"></img>
               </a>
             </li>
             <li>
               <a href={followLinks.youtube} target="_blank" rel="noopener noreferrer">
-                <img src="./icons/youtube.svg" className="svg"></img>
+                <img src="./icons/youtube.svg" className="svg" alt="youtube"></img>
               </a>
             </li>
             <li>
               <a href={followLinks.instagram} target="_blank" rel="noopener noreferrer">
-                <img src="./icons/instagram.svg" className="svg"></img>
+                <img src="./icons/instagram.svg" className="svg" alt="instagram"></img>
               </a>
             </li>
             <li>
               <a className="bg-white" href={followLinks.wordpress} target="_blank" rel="noopener noreferrer">
-                <img src="./icons/wordpress.svg" className="svg"></img>
+                <img src="./icons/wordpress.svg" className="svg" alt="wordpress"></img>
               </a>
             </li>
           </ul>
