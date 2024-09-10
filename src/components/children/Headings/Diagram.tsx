@@ -1,20 +1,14 @@
 const Diagram = () => {
 
     return (
-      <div className="ml-4 mt-4">
-
+      <div>
   
-          <h2 className="text-2xl font-bold underline text-burnt-orange">
-          Process Diagram      
-          </h2>
-  
-          <p className="font-medium pt-4">
-          <a 
+          <p className="font-medium pt-4">To view a diagram of the LASHP GPA Process, <a 
               href='pdf/General Plan Amendment Process.pdf'
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 underline"
-              >State Parks General Plan Amendment Process</a></p>
+              >click here</a> </p>
               </div>
           
     )
