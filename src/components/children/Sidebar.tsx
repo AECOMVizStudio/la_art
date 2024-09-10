@@ -21,7 +21,7 @@ const Sidebar = () => {
             <ul className="list-disc">
               {relatedPages.map((page) => (
                 <li key={page.name} className="p-2 mx-6 underline">
-                  <a href={page.link}>
+                  <a href={page.link} target="_blank" rel="noopener noreferrer">
                     {page.name}
                   </a>
                 </li>

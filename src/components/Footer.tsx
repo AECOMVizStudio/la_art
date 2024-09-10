@@ -13,18 +13,13 @@ function Footer() {
         
         <ul className="w-full md:w-2/4 lg:flex lg:flex-row lg:justify-evenly py-2 md:pl-8">
           <li>
-            <a href="#" className="hover:underline">
+            <a href="https://www.parks.ca.gov/ConditionsOfUse" target="_blank" rel="noopener noreferrer" className="hover:underline">
               Conditions of Use
             </a>
           </li>
           <li>
-            <a href="#" className="hover:underline">
+            <a href="https://www.parks.ca.gov/Privacy" target="_blank" rel="noopener noreferrer" className="hover:underline">
               Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:underline">
-              Terms of Service
             </a>
           </li>
         </ul>
