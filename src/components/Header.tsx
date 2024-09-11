@@ -24,10 +24,17 @@ const Header = () => {
                     hover:scale-110
                     md:w-32 md:mr-4"
         />
-        <h1 className="text-2xl font-bold text-center md:text-left
-                        transition-opacity duration-500 ease-in-out">
-            Los Angeles State Historic Park General Plan Amendment
-        </h1>
+        <div className="flex flex-col">
+
+            <h1 className="text-2xl font-bold text-center md:text-left
+                            transition-opacity duration-500 ease-in-out">
+                Los Angeles State Historic Park
+            </h1>
+            <h2 className="text-2xl font-bold text-center md:text-left
+                            transition-opacity duration-500 ease-in-out">
+                General Plan Amendment
+            </h2>
+        </div>
         </header>
 
         {/* option 2 */}
