@@ -42,8 +42,8 @@
 }
 
 #footer-logo {
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
 }
 
@@ -82,12 +82,14 @@
 }
 
 
-
-
 body {
   top: 0px !important;
   margin: 0;
   /* display: flex; */
   min-width: 320px;
   min-height: 100vh;
+}
+
+.list_item {
+  transform: rotate(90deg);
 }
