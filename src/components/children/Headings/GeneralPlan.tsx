@@ -1,15 +1,19 @@
 import Diagram from "./Diagram"
 
+
+// this should be done via looping through an array of objects with the section's data, but I couldn't get it to work in time, so they are just hardcoded.
+// The placement of the links within the body text was proving to be the issue. Maybe if it was concatenated? I'll have to revisit this.
+
 const GeneralPlan = () => {
   return (
     
         <section 
             tabIndex={0} 
             
-            className="bg-slate-100 border-2 border-slate-200 rounded mb-8 p-8"
+            className="mb-8 p-8"
         >
 
-        <h2 className="text-3xl font-bold underline text-burnt-orange">
+        <h2 className="text-3xl yeseva font-bold underline text-burnt-orange">
         Los Angeles State Historic Park (LASHP) General Plan Amendment (GPA) Process        
         </h2>
 
