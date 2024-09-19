@@ -45,16 +45,19 @@ const Sidebar = () => {
               ))}
             </ul>
           </div>
-            <div className="py-6">
+            <div className="py-6 ">
               <h3 className="text-xl font-bold">Sign up to receive LASHP General Plan Amendment information</h3>
               {mailingList.map((item) => (
-                <div className="bg-gray-200 flex flex-row my-4 p-4 text-medium-blue rounded-md border border-gray-300">
-                  <span className="bg-medium-blue text-white 
-                                    language_icon">{item.abbreviation}</span>
-                    <a href={item.href} target="_blank" rel="noopener noreferrer" className="mx-2">
+                <div className="bg-gray-200 flex flex-row items-center my-4 p-4 text-dark-blue rounded-md border border-gray-300">
+                <span className="bg-dark-blue text-white 
+                                language_icon flex items-center justify-center 
+                                w-8 h-8 rounded-full text-xs font-bold">
+                  {item.abbreviation}
+                </span>
+                <a href={item.href} target="_blank" rel="noopener noreferrer" className="mx-2">
                   {item.text}
-                  </a>
-                </div>
+                </a>
+              </div>
               ))}
             </div>
         </div>
