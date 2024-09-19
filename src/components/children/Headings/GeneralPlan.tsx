@@ -13,7 +13,7 @@ const GeneralPlan = () => {
             className="mb-8 p-8"
         >
 
-        <h2 className="text-3xl yeseva font-bold underline text-burnt-orange">
+        <h2 className="text-3xl yeseva font-bold text-burnt-orange">
         Los Angeles State Historic Park (LASHP) General Plan Amendment (GPA) Process        
         </h2>
 

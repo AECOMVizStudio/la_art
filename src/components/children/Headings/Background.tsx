@@ -6,7 +6,7 @@ const Background = () => {
             className="border-t border-gray-300 mb-8 p-8"
         >
   
-          <h2 className="text-3xl yeseva font-bold underline text-burnt-orange">
+          <h2 className="text-3xl yeseva font-bold text-burnt-orange">
           LA ART Project Background and Status     
           </h2>
   
