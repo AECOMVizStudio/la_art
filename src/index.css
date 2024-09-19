@@ -54,6 +54,14 @@
   margin: 0.5rem;
 }
 
+#relatedListItem:before {
+    content: '\203A'; /* Unicode for right-pointing carat */
+    position: absolute;
+    left: 0;
+    color: #333; /* Carat color */
+    font-size: 1rem; /* Adjust size as needed */
+}
+
 .svg{
   width: 20px;
   color: #fff;
@@ -92,4 +100,11 @@ body {
 
 .list_item {
   transform: rotate(90deg);
+}
+
+.language_icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  padding: 5px;
 }
