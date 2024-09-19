@@ -11,16 +11,17 @@ const relatedPages:Pages[] = [
 ];
 
 interface Mail {
+  language: string;
   abbreviation: string;
   text: string;
   href?: string;
 }
 
 const mailingList:Mail[] = [
-  {abbreviation: "EN", text: "Join our mailing list!", href: "https://docs.google.com/forms/d/1dku_08vhyPRPaIfBE1B6JNZXp-qnZNz2UwVhYjKqgbk/viewform?edit_requested=true"},
-  {abbreviation: "ZH", text: "加入我们的邮件列表!"},
-  {abbreviation: "ZH", text: "加入我們的郵件清單!"},
-  {abbreviation: "SP", text: "¡Únase a nuestra lista de correo!"},
+  {language:"english", abbreviation: "EN", text: "Join our mailing list!", href: "https://docs.google.com/forms/d/1dku_08vhyPRPaIfBE1B6JNZXp-qnZNz2UwVhYjKqgbk/viewform?edit_requested=true"},
+  {language:"simplified chinese", abbreviation: "ZH", text: "加入我们的邮件列表!"},
+  {language: "traditional chinese", abbreviation: "ZH", text: "加入我們的郵件清單!"},
+  {language: "spanish", abbreviation: "SP", text: "¡Únase a nuestra lista de correo!"},
 ]
 
 const rightChevron = 
@@ -48,7 +49,8 @@ const Sidebar = () => {
             <div className="py-6 ">
               <h3 className="text-xl font-bold">Sign up to receive LASHP General Plan Amendment information</h3>
               {mailingList.map((item) => (
-                <div className="bg-gray-200 flex flex-row items-center my-4 p-4 text-dark-blue rounded-md border border-gray-300">
+                <div className="bg-gray-200 flex flex-row items-center my-4 p-4 text-dark-blue rounded-md border border-gray-300
+                                notranslate">
                 <span className="bg-dark-blue text-white 
                                 language_icon flex items-center justify-center 
                                 w-8 h-8 rounded-full text-xs font-bold">
