@@ -18,10 +18,10 @@ interface Mail {
 }
 
 const mailingList:Mail[] = [
-  {language:"english", abbreviation: "EN", text: "Join our mailing list!", href: "https://docs.google.com/forms/d/1dku_08vhyPRPaIfBE1B6JNZXp-qnZNz2UwVhYjKqgbk/viewform?edit_requested=true"},
-  {language:"simplified chinese", abbreviation: "ZH", text: "加入我们的邮件列表!"},
-  {language: "traditional chinese", abbreviation: "ZH", text: "加入我們的郵件清單!"},
-  {language: "spanish", abbreviation: "SP", text: "¡Únase a nuestra lista de correo!"},
+  {language: "english", abbreviation: "EN", text: "Join our mailing list!", href: "https://docs.google.com/forms/d/1dku_08vhyPRPaIfBE1B6JNZXp-qnZNz2UwVhYjKqgbk/viewform?edit_requested=true"},
+  {language: "simplified chinese", abbreviation: "ZH", text: "加入我们的邮件列表!", href:"https://docs.google.com/forms/d/e/1FAIpQLSeKPyphpezD3_VX4I49bvAAgXd1FKVexxy3DBsbVNM5A0bwUA/viewform"},
+  {language: "traditional chinese", abbreviation: "ZH", text: "加入我們的郵件清單!", href:"https://docs.google.com/forms/d/e/1FAIpQLSeX92ce_SL2oJKzNWLA15Bjw7sV_-ATaq90xX_xawXxfD_u2g/viewform"},
+  {language: "spanish", abbreviation: "SP", text: "¡Únase a nuestra lista de correo!", href:"https://docs.google.com/forms/d/e/1FAIpQLSdVhQQu7Rf8vcRL8-JFYcHCJSrsXgTwBgsSCDUwZV6OwKKtSA/viewform"},
 ]
 
 const rightChevron = 
@@ -50,7 +50,8 @@ const Sidebar = () => {
               <h3 className="text-xl font-bold">Sign up to receive LASHP General Plan Amendment information</h3>
               {mailingList.map((item) => (
                 <div className="bg-gray-200 flex flex-row items-center my-4 p-4 text-dark-blue rounded-md border border-gray-300
-                                notranslate">
+                                notranslate"
+                                key={item.language}>
                 <span className="bg-dark-blue text-white 
                                 language_icon flex items-center justify-center 
                                 w-8 h-8 rounded-full text-xs font-bold">
