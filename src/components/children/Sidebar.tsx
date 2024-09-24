@@ -7,7 +7,7 @@ const relatedPages:Pages[] = [
   {name: "Los Angeles SHP", link: "https://www.parks.ca.gov/?page_id=22272"},
   {name: "Archaeological Excavation at LASHP ", link: "https://www.parks.ca.gov/?page_id=25540"},
   {name: "LASHP General Plan", link: "https://lastatehistoricpark.org/wp-content/uploads/2021/07/LASHP-General-Plan.pdf"},
-  {name: "Volunteer with LA River State Park Partners", link: "https://www.parks.ca.gov/?page_id=25858"},
+
 ];
 
 interface Mail {
