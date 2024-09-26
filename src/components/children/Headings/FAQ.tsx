@@ -37,7 +37,7 @@ const FAQ = () => {
             {faq.map((item, index) => (
                 <div key={index}>
                     <h4 className="font-semibold pt-4">{item.question}</h4>
-                    <p className="font-normal pt-4 mx-2">{item.answer}</p>
+                    <p className="font-normal pt-4">{item.answer}</p>
                 </div>
             ))}
  
