@@ -50,8 +50,7 @@ const Upcoming = () => {
               For ADA accommodations, please call (XXX) XXX-XXXX at least 72 hours before the meeting.
             </p>
             <p className="font-normal pt-4">
-              Materials for the GPA Public Meetings will be available on Thursday, October 17 on this website.  <br></br>
-              Translated materials will be available in Spanish, Chinese (Simplified), and Chinese (Traditional). 
+              Materials for the GPA Public Meetings will be available on Thursday, October 17 on this website. Translated materials will be available in Spanish, Chinese (Simplified), and Chinese (Traditional). 
             </p>
             <p className="font-normal pt-4">
               Interpretation will be provided at the Public Meetings in Spanish, Cantonese, Mandarin, and Taishanese. <br></br>
