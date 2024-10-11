@@ -40,7 +40,7 @@ const Diagram = () => {
     return (
       <>
         <p className="font-medium pt-4">
-          To view a diagram of the LASHP GPA Process, click on your preferred language, below: 
+        To view a diagram of the LASHP GPA Process, click on your preferred language, below: 
         </p>
           <div className="flex flex-col">
             {diagrams.map((diagram) => {

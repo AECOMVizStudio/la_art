@@ -18,7 +18,7 @@ const GeneralPlan = () => {
         </h2>
 
         <p className="font-medium pt-4">
-        California State Parks is initiating a GPA process for LASHP to review and consider direct transit access via the proposed Los Angeles Aerial Rapid Transit (LA ART) aerial gondola project.  If you wish to be involved and provide input, please sign up by selecting your preferred language on the right-hand side of the page under “Sign up to receive LASHP General Plan Amendment information.” 
+        California State Parks is initiating a GPA process for LASHP to review and consider direct transit access via the proposed Los Angeles Aerial Rapid Transit (LA ART) aerial gondola project.  If you wish to be involved and provide input, please join our email list by clicking the button under "Sign up to receive LASHP General Plan Amendment Information" 
                 
           </p>
 
