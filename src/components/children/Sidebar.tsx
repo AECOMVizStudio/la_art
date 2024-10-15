@@ -18,7 +18,7 @@ interface Mail {
 }
 
 const mailingList:Mail[] = [
-  {language: "english", abbreviation: "EN", text: "Join our email list!", href: "https://docs.google.com/forms/d/1dku_08vhyPRPaIfBE1B6JNZXp-qnZNz2UwVhYjKqgbk/viewform?edit_requested=true"}
+  {language: "english", abbreviation: "EN", text: "Join our email list!", href: "https://californiastateparks.formstack.com/forms/lastatehistoricparkgpa"}
 ]
 
 const rightChevron = 
