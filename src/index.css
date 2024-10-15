@@ -54,6 +54,7 @@
   margin: 0.5rem;
 }
 
+
 #relatedListItem:before {
     content: '\203A'; /* Unicode for right-pointing carat */
     position: absolute;
