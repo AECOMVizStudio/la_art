@@ -46,18 +46,21 @@ const Sidebar = () => {
             <div className="py-6 ">
               <h3 className="text-xl font-bold">Sign up to receive LASHP General Plan Amendment information</h3>
               {mailingList.map((item) => (
-                <div className="bg-gray-200 flex flex-row items-center my-4 p-4 text-dark-blue rounded-md border border-gray-300
-                               transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
-                                key={item.language}>
-                <span className="bg-dark-blue text-white 
-                                language_icon flex items-center justify-center 
-                                w-8 h-8 rounded-full text-xs font-bold">
-                  {item.abbreviation}
-                </span>
-                <a href={item.href} target="_blank" rel="noopener noreferrer" className="mx-2">
-                  {item.text}
-                </a>
-              </div>
+                <div
+                  className="bg-gradient-to-r from-[#d68100] via-[#e19735] to-[#e3af37] my-4 p-4 text-black font-extrabold rounded-md border max-w-fit
+                  transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform hover:cursor-pointer hover:shadow-[0_0_15px_rgba(255,193,7,0.7)]"
+                  key={item.language}
+                >
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-#2B2B2B tracking-wide text-lg will-change-auto"
+                  >
+                    {item.text}
+                  </a>
+                </div>
+
               ))}
             </div>
         </div>
