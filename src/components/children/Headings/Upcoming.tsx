@@ -17,7 +17,7 @@ const Upcoming = () => {
 
             <div>
                 <h4 className="font-semibold pt-4 text-lg">Virtual Meeting: Los Angeles State Historic Park General Plan Amendment</h4>
-                <p className="font-normal pt-4">Thursday, November 17, 2024, 6:00 - 7:00 PM </p>
+                <p className="font-normal pt-4">Thursday, November 7, 2024, 6:00 - 7:00 PM </p>
                 <div className="font-normal pt-4 mx-4 ">
                     <a className="text-blue-500 underline" href='https://us06web.zoom.us/j/84925758637' target="_blank" rel="noopener noreferrer">https://us06web.zoom.us/j/84925758637</a>
                     <div className="py-2">
@@ -32,7 +32,7 @@ const Upcoming = () => {
             <div className="font-normal">
                 <h5 className="font-semibold py-4 text-lg">In-Person Meeting: Los Angeles State Historic Park General Plan Amendment</h5>
                     <div className="py-1">
-                        Saturday, October November 19, 2024, 10:00 AM - 12:00 PM 
+                        Saturday, November 9, 2024, 10:00 AM - 12:00 PM 
                         Fred Harvey at Los Angeles Union Station, 800 Alameda Street, CA, 90012  
                     </div>
                     <div className="py-1">Parking validation will be available.</div>
