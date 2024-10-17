@@ -13,7 +13,7 @@ const Upcoming = () => {
           </h2>
 
           <p className="font-medium pt-4">The LASHP GPA public outreach effort is scheduled to begin in Fall 2024 and will extend into Spring 2025.</p>
-          <p className="font-medium pt-4">California State Parks will be hosting two initial public meetings to provide information on the LASHP GPA process and the LA ART project, and to collect input on ideas and suggestions to be considered during the GPA process. These two meetings will cover the same content.</p>
+          <p className="font-medium py-4">California State Parks will be hosting two initial public meetings to provide information on the LASHP GPA process and the LA ART project, and to collect input on ideas and suggestions to be considered during the GPA process. These two meetings will cover the same content.</p>
 
             <div className="bg-gradient-to-br from-[rgba(214,128,0,0.75)] to-[rgba(227,175,55,0.75)] border-2 border-gray-200 rounded-lg p-2 md:px-4">
                 
@@ -42,7 +42,7 @@ const Upcoming = () => {
                         <div className="py-1">For ADA accommodations, please call (XXX) XXX-XXXX at least 72 hours before the meeting. </div>
                         <div className="py-1">Materials for the GPA Public Meetings will be available on Thursday, October 17 on this website. Translated materials will be available in Spanish, Chinese (Simplified), and Chinese (Traditional). </div>
                         <div className="py-1">Interpretation will be provided at the Public Meetings in Spanish, Cantonese, Mandarin, and Taishanese.</div>
-                        <div className="py-1">If you wish to receive plan and meeting notifications, please sign up by clicking the button under “Sign up to receive LASHP General Plan Amendment information.</div>
+                        <div className="py-1">If you wish to receive plan and meeting notifications, please sign up by clicking the button under “Sign up to receive LASHP General Plan Amendment information."</div>
                 </div>
 
                 {/* <img src="/CalStateParkLogo.png" alt="" className="absolute opacity-15" id="upcomingWatermark"></img> */}
