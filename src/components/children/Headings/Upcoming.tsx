@@ -15,14 +15,14 @@ const Upcoming = () => {
           <p className="font-medium pt-4">The LASHP GPA public outreach effort is scheduled to begin in Fall 2024 and will extend into Spring 2025.</p>
           <p className="font-medium pt-4">California State Parks will be hosting two initial public meetings to provide information on the LASHP GPA process and the LA ART project, and to collect input on ideas and suggestions to be considered during the GPA process. These two meetings will cover the same content.</p>
 
-            <div className="bg-gradient-to-br from-[rgba(214,129,0,0.9)] to-[rgba(227,175,55,0.75)] border-2 border-gray-200 rounded-lg p-2 md:px-4">
+            <div className="bg-gradient-to-br from-[rgba(214,128,0,0.75)] to-[rgba(227,175,55,0.75)] border-2 border-gray-200 rounded-lg p-2 md:px-4">
                 
 
                 <div>
                     <h4 className="font-semibold pt-4 text-lg">Virtual Meeting: Los Angeles State Historic Park General Plan Amendment</h4>
                     <p className="font-normal pt-4">Thursday, November 7, 2024, 6:00 - 7:00 PM </p>
                     <div className="font-normal pt-4 mx-4 overflow-x-hidden w-[80%]">
-                        <a className="text-blue-500 underline font-e" href='https://us06web.zoom.us/j/84925758637' target="_blank" rel="noopener noreferrer">https://us06web.zoom.us/j/84925758637</a>
+                        <a className="text-blue-500 underline font-extrabold" href='https://us06web.zoom.us/j/84925758637' target="_blank" rel="noopener noreferrer">https://us06web.zoom.us/j/84925758637</a>
                         <div className="py-2">
                             <p>Or join by telephone:</p>
                             <p>(669) 900-6833 US</p>
