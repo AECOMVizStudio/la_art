@@ -49,7 +49,6 @@ const Upcoming = () => {
                 {/* <img src="/CalStateParkLogo.png" alt="" className="absolute opacity-15" id="upcomingWatermark"></img> */}
 
             </div>
-=======
           <p className="font-medium py-4">The LASHP GPA public outreach effort is scheduled to begin in Fall 2024/Winter 2025 and will extend into Spring 2025.</p>
 
           <div className="font-medium">If you wish to receive plan and meeting notifications, please sign up by clicking the button under “Sign up to receive LASHP General Plan Amendment information."</div>
