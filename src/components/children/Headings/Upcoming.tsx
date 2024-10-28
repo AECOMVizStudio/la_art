@@ -24,8 +24,8 @@ const Upcoming = () => {
                 <div>
                     <h4 className="font-semibold pt-2 text-lg">Virtual Meeting: Los Angeles State Historic Park General Plan Amendment</h4>
                     <p className="font-normal pt-4">Thursday, November 7, 2024, 6:00 - 7:00 PM </p>
-                    <div className="font-normal pt-4 mx-4 overflow-x-hidden w-[80%]">
-                        <a className="text-blue-500 underline font-extrabold" href='https://us06web.zoom.us/j/84925758637' target="_blank" rel="noopener noreferrer">https://us06web.zoom.us/j/84925758637</a>
+                    <div className="font-normal pt-4 mx-4 w-[80%]">
+                        <a className="text-blue-500 underline font-extrabold text-sm sm:text-lg" href='https://us06web.zoom.us/j/84925758637' target="_blank" rel="noopener noreferrer">https://us06web.zoom.us/j/84925758637</a>
                         <div className="py-2">
                             <p>Or join by telephone:</p>
                             <p>(669) 900-6833 US</p>
