@@ -28,7 +28,7 @@ const Upcoming = () => {
                         <div className="py-1">
                             Saturday, November 9, 2024, 10:00 AM - 12:00 PM
                             <br></br>
-                            Fred Harvey at Los Angeles Union Station, 800 Alameda Street, Los Angeles, CA, 90012  
+                            Fred Harvey Room at Los Angeles Union Station, 800 Alameda Street, Los Angeles, CA, 90012  
                         </div>
                         <div className="py-1">Parking validation will be available.</div>
                 </div>
