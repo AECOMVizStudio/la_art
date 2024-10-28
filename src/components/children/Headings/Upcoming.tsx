@@ -8,7 +8,7 @@ const Upcoming = () => {
         className="border-t border-gray-300 mb-8 p-8"
     >
   
-          <h2 className="text-3xl yeseva font-bold text-burnt-orange">
+          <h2 className="text-3xl yeseva font-bold text-burnt-orange pb-4">
           Upcoming Meetings       
           </h2>
           <div className="bg-gradient-to-br from-[rgba(214,128,0,0.75)] to-[rgba(227,175,55,0.75)] border-2 border-gray-200 rounded-lg p-2 md:px-4">
