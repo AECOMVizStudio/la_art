@@ -16,7 +16,7 @@ const Upcoming = () => {
             <div className="font-medium pt-4">If you wish to receive plan and meeting notifications, please sign up by clicking the button under “Sign up to receive LASHP General Plan Amendment information.” </div>
             <p className="font-medium pt-4">California State Parks will be hosting two initial public meetings to provide information on the LASHP GPA process and the LA ART project, and to collect input on ideas and suggestions to be considered during the GPA process. These two meetings will cover the same content. In addition, an online form will be available to provide input following the meetings.</p>
             <p className="font-medium pt-4">Interpretation will be provided at the Public Meetings in Spanish, Cantonese, Mandarin, and Taishanese.  For ADA accommodations, please email <span className="text-blue-500 underline">planning@parks.ca.gov</span> at least 72 hours before either meeting.</p>
-            <p className="font-medium py-4">Materials for the General Plan Amendment Public Meetings will be available on Tuesday, November 12 on this website. Translated materials will be available in Spanish, Chinese (Traditional), and Chinese (Simplified).</p>
+            <p className="font-medium py-4">Materials for the General Plan Amendment Virtual Public Meeting will be available on Tuesday, November 12 on this website. Translated materials will be available in Spanish, Chinese (Traditional), and Chinese (Simplified).</p>
 
             
             <div className="bg-gradient-to-br from-[rgba(214,128,0,0.75)] to-[rgba(227,175,55,0.75)] border-2 border-gray-200 rounded-lg p-2 md:px-4">
@@ -30,6 +30,8 @@ const Upcoming = () => {
                             Fred Harvey Room at Los Angeles Union Station, 800 Alameda Street, Los Angeles, CA, 90012  
                         </div>
                         <div className="py-1">Parking validation will be available.</div>
+                        <div className="py-1"><b>Note:</b> This will be an Open House-style event. Attendees will have an opportunity to learn about the LA ART project and the GPA process, interact with State Parks staff, and provide written input.
+</div>
                 </div>
 
                 <div>
