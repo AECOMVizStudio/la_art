@@ -22,7 +22,7 @@ const GeneralPlan = () => {
                 
           </p>
         <p className="font-medium pt-4">
-        To provide written input using the online input form, <a href='https://www.surveymonkey.com/r/lastatehistoricparkgpa' target="_blank" className="text-blue-500 underline font-bold">click here</a>. You may also email State Parks at <span className="font-bold">lastatehistoricparkgpa@parks.ca.gov</span> or mail your feedback to
+        To provide written input using the online input form, <a href='https://www.surveymonkey.com/r/lastatehistoricparkgpa' target="_blank" className="text-blue-500 underline font-bold">click here</a>. You may also email State Parks at <span className="font-bold">lastatehistoricparkgpa@parks.ca.gov</span> or mail your feedback to:
         </p>
           <div className="font-normal pt-4 mx-4">
               <div className="py-2">
