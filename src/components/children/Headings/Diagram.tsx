@@ -1,3 +1,4 @@
+
 interface DiagramLanguage {
   language: string;
   abbreviation: string;
@@ -42,7 +43,7 @@ const Diagram = () => {
         <p className="font-medium pt-4">
         To view a diagram of the LASHP GPA Process, click on your preferred language, below: 
         </p>
-          <div className="flex flex-col">
+          <div className="flex flex-col sm:flex-row">
             {diagrams.map((diagram) => {
                 return (
                   <a 
@@ -50,7 +51,7 @@ const Diagram = () => {
                   href={diagram.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 underline max-w-fit pt-4"
+                  className="text-blue-500 underline max-w-fit text-nowrap pt-4 sm:mr-4"
                   >{diagram.text}</a> 
                 )
               })}
