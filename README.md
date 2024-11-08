@@ -1,61 +1,24 @@
-# React + TypeScript + Vite
+# LASHP Website - 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Stack: React, TypeScript, Tailwind
+- Important info: Deployed on Netlify. No CMS or backend as of 11/8/24.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to run the project locally
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Clone this repository
+- Run `npm install` to install the dependencies
+- Run `npm run dev` to start the development server
+- Open `http://localhost:5173` in your browser
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-
-11-8 changes, reference doc:
-Online feedback form, will be in first section, link to surveymonkey
-Collapsible sections for each section
+### 11-8 changes, reference doc:
+- Online feedback form, will be in first section, link to surveymonkey
 
 11-11 changes, reference doc:
-Public meeting materials, links to pdfs
+- Public meeting materials, links to pdfs
+- Collapsibles for each section
 
 11/13 - 11/15
-Post recordings of virtual meetings, five videos
-confirm with steve we can use vimeo
+- Post recordings of virtual meetings, five videos
+- confirm with steve we can use vimeo DONE
