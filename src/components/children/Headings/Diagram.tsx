@@ -69,6 +69,18 @@ const Diagram = () => {
                         text-blue-500 underline border-2">{diagram.text}</div> 
                     )
                   })}
+            {diagrams.map((diagram) => {
+                    return ( 
+                        <div key={diagram.language}className="flex justify-start items-center p-2
+                        text-blue-500 underline border-2">{diagram.text}</div> 
+                    )
+                  })}
+            {diagrams.map((diagram) => {
+                    return ( 
+                        <div key={diagram.language}className="flex justify-start items-center p-2
+                        text-blue-500 underline border-2">{diagram.text}</div> 
+                    )
+                  })}
           </div>
           
         </div>
