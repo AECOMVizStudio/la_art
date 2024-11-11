@@ -16,8 +16,7 @@
 - Online feedback form, will be in first section, link to surveymonkey
 
 11-11 changes, reference doc:
-- Public meeting materials, links to pdfs
-- Collapsibles for each section
+Use 241106_LASHP GPA Website Meeting Materials Mockup_DRAFT-01 1.png as reference for changes, use collapsible diagram code.
 
 11/13 - 11/15
 - Post recordings of virtual meetings, five videos
