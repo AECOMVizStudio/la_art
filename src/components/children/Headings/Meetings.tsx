@@ -1,4 +1,38 @@
+import MaterialsExpandable from "./reusable/MaterialsExpandable"
 
+interface MeetingMaterials {
+  key: number;
+  document: string;
+  label: string;
+  ref: string;
+}
+
+const inPersonPublicMeetingPresentationBoards: MeetingMaterials[] =[
+  {
+    key: 1,
+    document: "In-Person Public Meeting Presentation Boards (PDF)",
+    label: "English",
+    ref: "/pdf/English in person.pdf",
+  },
+  {
+    key: 2,
+    document: "In-Person Public Meeting Presentation Boards (PDF)",
+    label: "Spanish",
+    ref: "/pdf/Spanish in person.pdf",
+  },
+  {
+    key: 3,
+    document: "In-Person Public Meeting Presentation Boards (PDF)",
+    label: "Chinese - Traditional",
+    ref: "/pdf/Chinese in person.pdf",
+  },
+  {
+    key: 4,
+    document: "In-Person Public Meeting Presentation Boards (PDF)",
+    label: "Chinese - Simplified",
+    ref: "/pdf/Chinese in person.pdf",
+  },
+]
 
 
 const Upcoming = () => {
@@ -16,10 +50,9 @@ const Upcoming = () => {
             <div className="font-medium pt-4">If you wish to receive plan and meeting notifications, please sign up by clicking the button under “Sign up to receive LASHP General Plan Amendment information.” </div>
             <p className="font-medium pt-4">California State Parks will be hosting two initial public meetings to provide information on the LASHP GPA process and the LA ART project, and to collect input on ideas and suggestions to be considered during the GPA process. These two meetings will cover the same content. In addition, an online form will be available to provide input following the meetings.</p>
             <p className="font-medium pt-4">Interpretation will be provided at the Public Meetings in Spanish, Cantonese, Mandarin, and Taishanese.  For ADA accommodations, please email <span className="text-blue-500 underline">planning@parks.ca.gov</span> at least 72 hours before either meeting.</p>
-            <p className="font-medium py-4">Materials for the General Plan Amendment Virtual Public Meeting will be available on Tuesday, November 12 on this website. Translated materials will be available in Spanish, Chinese (Traditional), and Chinese (Simplified).</p>
-
-            
+            <p className="font-medium py-4">Materials for the General Plan Amendment Public Meetings are available in English, Spanish, Chinese (Traditional), and Chinese (Simplified) below:</p>
           
+          <MaterialsExpandable props={inPersonPublicMeetingPresentationBoards} />
       
           </section>
           
