@@ -4,25 +4,25 @@ import { MeetingMaterials } from "../../../interfaces"
 const inPersonPublicMeetingPresentationBoards: MeetingMaterials[] =[
   {
     key: 1,
-    document: "In-Person Public Meeting Presentation Boards (PDF)",
+    document: "In-Person Public Meeting Display Boards (PDF)",
     label: "English",
     ref: "/pdf/Boards/LASHP GPA_ Boards_English_Spanish.pdf",
   },
   {
     key: 2,
-    document: "In-Person Public Meeting Presentation Boards (PDF)",
+    document: "In-Person Public Meeting Display Boards (PDF)",
     label: "Spanish",
     ref: "/pdf/Boards/LASHP GPA_ Boards_English_Spanish.pdf",
   },
   {
     key: 3,
-    document: "In-Person Public Meeting Presentation Boards (PDF)",
+    document: "In-Person Public Meeting Display Boards (PDF)",
     label: "Chinese - Traditional",
     ref: "/pdf/Boards/LASHP GPA_Boards_Traditional Chinese_Simplified Chinese.pdf",
   },
   {
     key: 4,
-    document: "In-Person Public Meeting Presentation Boards (PDF)",
+    document: "In-Person Public Meeting Display Boards (PDF)",
     label: "Chinese - Simplified",
     ref: "/pdf/Boards/LASHP GPA_Boards_Traditional Chinese_Simplified Chinese.pdf",
   },
