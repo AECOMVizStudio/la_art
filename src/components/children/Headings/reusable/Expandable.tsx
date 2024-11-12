@@ -6,11 +6,11 @@ interface DiagramLanguage {
   href?: string;
 }
 
-interface DiagramProps {
+interface ExpandableProps {
   props: DiagramLanguage[];
 }
 
-const Diagram = ({ props }: DiagramProps) => {
+const Expandable = ({ props }: ExpandableProps) => {
 
   const [expanded, setExpanded] = useState<boolean>(false)
 
@@ -62,4 +62,4 @@ const Diagram = ({ props }: DiagramProps) => {
   )
 }
   
-  export default Diagram
+  export default Expandable

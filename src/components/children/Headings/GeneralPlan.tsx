@@ -1,4 +1,4 @@
-import Diagram from "./Diagram"
+import Expandable from "./reusable/Expandable"
 
 
 // this should be done via looping through an array of objects with the section's data, but I couldn't get it to work in time, so they are just hardcoded.
@@ -65,7 +65,7 @@ const GeneralPlan = () => {
               </div>
             </div>
 
-          <Diagram props={diagrams}/>
+          <Expandable props={diagrams}/>
     
         </section>
         
