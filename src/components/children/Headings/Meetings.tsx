@@ -81,7 +81,7 @@ const publicInputForms: MeetingMaterials[] =[
 ]
 
 
-const Upcoming = () => {
+const Meetings = () => {
     return (
         <section 
         tabIndex={0} 
@@ -107,4 +107,4 @@ const Upcoming = () => {
     )
   }
   
-  export default Upcoming
+  export default Meetings
