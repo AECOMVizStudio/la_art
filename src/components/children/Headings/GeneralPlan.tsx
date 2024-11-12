@@ -3,6 +3,39 @@ import Diagram from "./Diagram"
 
 // this should be done via looping through an array of objects with the section's data, but I couldn't get it to work in time, so they are just hardcoded.
 // The placement of the links within the body text was proving to be the issue. Maybe if it was concatenated? I'll have to revisit this.
+interface DiagramLanguage {
+  language: string;
+  abbreviation: string;
+  text: string;
+  href?: string;
+}
+
+const diagrams:DiagramLanguage[] = [
+  {
+    language: "English",
+    abbreviation: "EN",
+    text:"English",
+    href:"/pdf/General Plan Amendment Process.pdf"
+  },
+  {
+    language:"Spanish",
+    abbreviation:"SP",
+    text:"Spanish",
+    href:'/pdf/GPA Process_sp_accessible.pdf'
+  },
+  {
+    language:"Traditional Chinese",
+    abbreviation:"ZH",
+    text:"Chinese - Traditional",
+    href:'/pdf/GPA Process_tc_accessible.pdf'
+  },
+  {
+    language:"Simplified Chinese",
+    abbreviation:"ZH",
+    text: "Chinese - Simplified ",
+    href:'/pdf/GPA Process_sc_accessible.pdf'
+  }
+]
 
 const GeneralPlan = () => {
   return (
@@ -32,7 +65,7 @@ const GeneralPlan = () => {
               </div>
             </div>
 
-          <Diagram />
+          <Diagram props={diagrams}/>
     
         </section>
         
