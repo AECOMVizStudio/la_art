@@ -97,7 +97,21 @@ const Meetings = () => {
             <p className="font-medium pt-4">California State Parks will be hosting two initial public meetings to provide information on the LASHP GPA process and the LA ART project, and to collect input on ideas and suggestions to be considered during the GPA process. These two meetings will cover the same content. In addition, an online form will be available to provide input following the meetings.</p>
             <p className="font-medium pt-4">Interpretation will be provided at the Public Meetings in Spanish, Cantonese, Mandarin, and Taishanese.  For ADA accommodations, please email <span className="text-blue-500 underline">planning@parks.ca.gov</span> at least 72 hours before either meeting.</p>
             <p className="font-medium py-4">Materials for the General Plan Amendment Public Meetings are available in English, Spanish, Chinese (Traditional), and Chinese (Simplified) below:</p>
-          
+            
+        <div className="bg-gradient-to-br from-[rgba(214,128,0,0.75)] to-[rgba(227,175,55,0.75)] border-2 border-gray-200 rounded-lg p-2 mb-2 md:px-4">
+
+          <div className="font-normal">
+              <h5 className="font-semibold py-4 text-lg">In-Person Meeting: Los Angeles State Historic Park General Plan Amendment</h5>
+                  <div className="py-1">
+                      Saturday, November 9, 2024, 10:00 AM - 12:00 PM
+                      <br></br>
+                      Fred Harvey Room at Los Angeles Union Station, 800 Alameda Street, Los Angeles, CA, 90012  
+                  </div>
+                  <div className="py-1">Parking validation will be available.</div>
+                  <div className="py-1"><b>Note:</b> This will be an Open House-style event. Attendees will have an opportunity to learn about the LA ART project and the GPA process, interact with State Parks staff, and provide written input.</div>
+          </div>
+
+        </div>
           <MaterialsExpandable props={inPersonPublicMeetingPresentationBoards} />
           <MaterialsExpandable props={virtualPublicMeetingPresentation} />
           <MaterialsExpandable props={publicInputForms} />
