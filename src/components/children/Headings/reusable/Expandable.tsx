@@ -17,8 +17,8 @@ const Expandable = ({ props }: ExpandableProps) => {
         To view a diagram of the LASHP GPA Process, click on your preferred language, below:
       </p>
       {/* mobile view */}
-      <div className='sm:hidden' >
-        <div className="bg-gray-200 flex justify-between p-2" onClick={expandHandler}>
+      <div>
+        <div className="bg-gray-200 flex justify-between mt-2 p-2 hover:cursor-pointer" onClick={expandHandler}>
           <p className='text-center font-bold'>Click to expand</p>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transition-transform duration-300 ease-in-out" fill="none" viewBox="0 0 24 24" stroke="currentColor"
             style={{ transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)' }}
@@ -38,8 +38,8 @@ const Expandable = ({ props }: ExpandableProps) => {
           })}
         </div>
       </div>
-      {/* desktop view */}
-      <div className="hidden sm:flex flex-row">
+      {/* desktop view. Client requested mobile view is active at all screen sizes. The following div is not utilized in final version */}
+      <div className="hidden">
         {props.map((diagram) => {
           return (
             <a
