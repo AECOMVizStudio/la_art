@@ -26,7 +26,9 @@ const MaterialsExpandable = ({ props }: MaterialsExpandableProps) => {
           {props.map((material) => {
             return (
               <div key={material.key} className="flex justify-start items-center sm:items-stretch p-1 sm:p-2 text-blue-500 underline border-2">
-                <a href='{material.ref}'>{material.label}</a>
+                <a href={material.ref}
+                  target="_blank"
+                  rel="noopener noreferrer">{material.label}</a>
               </div>
             )
           })}
