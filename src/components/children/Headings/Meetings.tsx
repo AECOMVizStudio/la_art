@@ -96,9 +96,9 @@ const Meetings = () => {
             <div className="font-medium pt-4">If you wish to receive plan and meeting notifications, please sign up by clicking the button under “Sign up to receive LASHP General Plan Amendment information.” </div>
             <p className="font-medium pt-4">California State Parks will be hosting two initial public meetings to provide information on the LASHP GPA process and the LA ART project, and to collect input on ideas and suggestions to be considered during the GPA process. These two meetings will cover the same content. In addition, an online form will be available to provide input following the meetings.</p>
             <p className="font-medium pt-4">Interpretation will be provided at the Public Meetings in Spanish, Cantonese, Mandarin, and Taishanese.  For ADA accommodations, please email <span className="text-blue-500 underline">planning@parks.ca.gov</span> at least 72 hours before either meeting.</p>
-            <p className="font-medium py-4">Materials for the General Plan Amendment Public Meetings are available in English, Spanish, Chinese (Traditional), and Chinese (Simplified) below:</p>
+
             
-            <div className="bg-gradient-to-br from-[rgba(214,128,0,0.75)] to-[rgba(227,175,55,0.75)] border-2 border-gray-200 rounded-lg p-2 mb-4 md:px-4">
+            <div className="bg-gradient-to-br from-[rgba(214,128,0,0.75)] to-[rgba(227,175,55,0.75)] border-2 border-gray-200 rounded-lg p-2 my-4 md:px-4">
 
 
                 <div className="font-normal">
@@ -130,6 +130,8 @@ const Meetings = () => {
                 {/* <img src="/CalStateParkLogo.png" alt="" className="absolute opacity-15" id="upcomingWatermark"></img> */}
 
             </div>
+          <p className="font-medium pb-4">Materials for the General Plan Amendment Public Meetings are available in English, Spanish, Chinese (Traditional), and Chinese (Simplified) below:</p>
+
           <MaterialsExpandable props={inPersonPublicMeetingPresentationBoards} />
           <MaterialsExpandable props={virtualPublicMeetingPresentation} />
           <MaterialsExpandable props={publicInputForms} />
