@@ -12,7 +12,7 @@ const MaterialsExpandable = ({ props }: MaterialsExpandableProps) => {
   return (
     <div className='mb-4'>
       {/* mobile view */}
-      <div className='lg:hidden' onClick={expandHandler}>
+      <div onClick={expandHandler}>
         <div className="bg-gray-200 flex justify-between p-2 hover:cursor-pointer">
           <p className='text-left font-bold'>{props[0].document}</p>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transition-transform duration-300 ease-in-out" fill="none" viewBox="0 0 24 24" stroke="currentColor"
@@ -34,8 +34,8 @@ const MaterialsExpandable = ({ props }: MaterialsExpandableProps) => {
           })}
         </div>
       </div>
-      {/* desktop view */}
-      <div className="hidden lg:flex min-w-full justify-normal">
+      {/* desktop view, client requested all views use mobile view so the following is not used*/}
+      <div className="hidden min-w-full ">
         <p className='px-2 py-4 border-y-4 font-bold w-1/4'>{props[0].document}</p>
         {props.map((material) => {
           return (
