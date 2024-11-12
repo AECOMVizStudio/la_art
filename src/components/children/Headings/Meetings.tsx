@@ -27,6 +27,58 @@ const inPersonPublicMeetingPresentationBoards: MeetingMaterials[] =[
     ref: "/pdf/Chinese in person.pdf",
   },
 ]
+const sampleData2: MeetingMaterials[] =[
+  {
+    key: 1,
+    document: "Virtual Public Meeting Presentation (PDF)",
+    label: "English",
+    ref: "/pdf/English in person.pdf",
+  },
+  {
+    key: 2,
+    document: "Virtual Public Meeting Presentation (PDF)",
+    label: "Spanish",
+    ref: "/pdf/Spanish in person.pdf",
+  },
+  {
+    key: 3,
+    document: "Virtual Public Meeting Presentation (PDF)",
+    label: "Chinese - Traditional",
+    ref: "/pdf/Chinese in person.pdf",
+  },
+  {
+    key: 4,
+    document: "Virtual Public Meeting Presentation (PDF)",
+    label: "Chinese - Simplified",
+    ref: "/pdf/Chinese in person.pdf",
+  },
+]
+const sampleData3: MeetingMaterials[] =[
+  {
+    key: 1,
+    document: "Public Input Form (PDF)",
+    label: "English",
+    ref: "/pdf/English in person.pdf",
+  },
+  {
+    key: 2,
+    document: "Public Input Form (PDF)",
+    label: "Spanish",
+    ref: "/pdf/Spanish in person.pdf",
+  },
+  {
+    key: 3,
+    document: "Public Input Form (PDF)",
+    label: "Chinese - Traditional",
+    ref: "/pdf/Chinese in person.pdf",
+  },
+  {
+    key: 4,
+    document: "Public Input Form (PDF)",
+    label: "Chinese - Simplified",
+    ref: "/pdf/Chinese in person.pdf",
+  },
+]
 
 
 const Upcoming = () => {
@@ -47,6 +99,8 @@ const Upcoming = () => {
             <p className="font-medium py-4">Materials for the General Plan Amendment Public Meetings are available in English, Spanish, Chinese (Traditional), and Chinese (Simplified) below:</p>
           
           <MaterialsExpandable props={inPersonPublicMeetingPresentationBoards} />
+          <MaterialsExpandable props={sampleData2} />
+          <MaterialsExpandable props={sampleData3} />
       
           </section>
           

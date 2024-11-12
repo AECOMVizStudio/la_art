@@ -10,14 +10,11 @@ const MaterialsExpandable = ({ props }: MaterialsExpandableProps) => {
   }
 
   return (
-    <>
-      <p className="font-medium pt-4">
-        To view a diagram of the LASHP GPA Process, click on your preferred language, below:
-      </p>
+    <div className='mb-4'>
       {/* mobile view */}
-      <div className='sm:hidden' onClick={expandHandler}>
-        <div className="bg-gray-200 flex justify-between p-2">
-          <p className='text-center font-bold'>{props[0].document}</p>
+      <div className='lg:hidden' onClick={expandHandler}>
+        <div className="bg-gray-200 flex justify-between p-2 hover:cursor-pointer">
+          <p className='text-left font-bold'>{props[0].document}</p>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transition-transform duration-300 ease-in-out" fill="none" viewBox="0 0 24 24" stroke="currentColor"
             style={{ transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)' }}
           >
@@ -36,20 +33,23 @@ const MaterialsExpandable = ({ props }: MaterialsExpandableProps) => {
         </div>
       </div>
       {/* desktop view */}
-      <div className="hidden sm:flex flex-row">
+      <div className="hidden lg:flex min-w-full justify-normal">
+        <p className='px-2 py-4 border-y-4 font-bold w-1/4'>{props[0].document}</p>
         {props.map((material) => {
           return (
-            <a
-              key={material.key}
-              href={material.ref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 underline max-w-fit text-nowrap pt-4 sm:mr-4"
-            >{material.label}</a>
+            <div  className='border-t-4 border-b-4 border-l-2 flex items-center justify-center lg:px-2 xl:px-4'
+            key={material.key}>
+              <a
+                href={material.ref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 semibold underline"
+              >{material.label}</a>
+            </div>
           )
         })}
       </div>
-    </>
+    </div>
   )
 }
   
