@@ -1,4 +1,4 @@
-// used in MaterialsExpandable.tsx
+// used in MaterialsExpandable.tsx and Meetings.tsx
 export interface MeetingMaterials {
     key: number;
     document: string;
@@ -9,7 +9,7 @@ export interface MaterialsExpandableProps {
     props: MeetingMaterials[];
 }
 
-// used in Expandable.tsx
+// used in Expandable.tsx and GeneralPlan.tsx
 export interface DiagramLanguage {
     language: string;
     abbreviation: string;
