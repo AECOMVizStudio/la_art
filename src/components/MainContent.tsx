@@ -23,7 +23,7 @@ const MainContent = () => {
                 <div className="flex flex-col md:flex-col w-full md:w-2/4 mr-4">
                     <Subtitle />
                 </div>
-                <div className="flex flex-col w-full md:w-1/4">
+                <div className="flex flex-col w-full md:w-1/4 max-h-fit">
                     <Sidebar />
                 </div>
             </div>
