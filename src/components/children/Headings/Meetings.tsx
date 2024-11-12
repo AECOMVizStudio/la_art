@@ -1,11 +1,5 @@
 import MaterialsExpandable from "./reusable/MaterialsExpandable"
-
-interface MeetingMaterials {
-  key: number;
-  document: string;
-  label: string;
-  ref: string;
-}
+import { MeetingMaterials } from "../../../interfaces"
 
 const inPersonPublicMeetingPresentationBoards: MeetingMaterials[] =[
   {

@@ -1,5 +1,5 @@
 // used in MaterialsExpandable.tsx
-export default interface MeetingMaterials {
+export interface MeetingMaterials {
     key: number;
     document: string;
     label: string;
