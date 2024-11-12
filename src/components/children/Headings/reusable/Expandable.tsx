@@ -1,14 +1,7 @@
 import { useState } from 'react'
-interface DiagramLanguage {
-  language: string;
-  abbreviation: string;
-  text: string;
-  href?: string;
-}
 
-interface ExpandableProps {
-  props: DiagramLanguage[];
-}
+import { ExpandableProps } from '../../../../interfaces';
+
 
 const Expandable = ({ props }: ExpandableProps) => {
 
