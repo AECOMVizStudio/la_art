@@ -6,25 +6,25 @@ const inPersonPublicMeetingPresentationBoards: MeetingMaterials[] =[
     key: 1,
     document: "In-Person Public Meeting Presentation Boards (PDF)",
     label: "English",
-    ref: "/pdf/English in person.pdf",
+    ref: "/pdf/Boards/LASHP GPA_ Boards_English_Spanish.pdf",
   },
   {
     key: 2,
     document: "In-Person Public Meeting Presentation Boards (PDF)",
     label: "Spanish",
-    ref: "/pdf/Spanish in person.pdf",
+    ref: "/pdf/Boards/LASHP GPA_ Boards_English_Spanish.pdf",
   },
   {
     key: 3,
     document: "In-Person Public Meeting Presentation Boards (PDF)",
     label: "Chinese - Traditional",
-    ref: "/pdf/Chinese in person.pdf",
+    ref: "/pdf/Boards/LASHP GPA_Boards_Traditional Chinese_Simplified Chinese.pdf",
   },
   {
     key: 4,
     document: "In-Person Public Meeting Presentation Boards (PDF)",
     label: "Chinese - Simplified",
-    ref: "/pdf/Chinese in person.pdf",
+    ref: "/pdf/Boards/LASHP GPA_Boards_Traditional Chinese_Simplified Chinese.pdf",
   },
 ]
 const virtualPublicMeetingPresentation: MeetingMaterials[] =[
