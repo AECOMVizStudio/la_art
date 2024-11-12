@@ -58,25 +58,25 @@ const sampleData3: MeetingMaterials[] =[
     key: 1,
     document: "Public Input Form (PDF)",
     label: "English",
-    ref: "/pdf/English in person.pdf",
+    ref: "/pdf/Input_Forms/LASHP GPA_Input Form_English.pdf",
   },
   {
     key: 2,
     document: "Public Input Form (PDF)",
     label: "Spanish",
-    ref: "/pdf/Spanish in person.pdf",
+    ref: "/pdf/Input_Forms/LASHP GPA_Input Form_Spanish.pdf",
   },
   {
     key: 3,
     document: "Public Input Form (PDF)",
     label: "Chinese - Traditional",
-    ref: "/pdf/Chinese in person.pdf",
+    ref: "/pdf/Input_Forms/LASHP GPA_Input Form_Traditional Chinese.pdf",
   },
   {
     key: 4,
     document: "Public Input Form (PDF)",
     label: "Chinese - Simplified",
-    ref: "/pdf/Chinese in person.pdf",
+    ref: "/pdf/Input_Forms/LASHP GPA_Input Form_Simplified Chinese.pdf",
   },
 ]
 
