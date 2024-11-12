@@ -1,14 +1,10 @@
 import Expandable from "./reusable/Expandable"
+import { DiagramLanguage } from "../../../interfaces"
 
 
 // this should be done via looping through an array of objects with the section's data, but I couldn't get it to work in time, so they are just hardcoded.
 // The placement of the links within the body text was proving to be the issue. Maybe if it was concatenated? I'll have to revisit this.
-interface DiagramLanguage {
-  language: string;
-  abbreviation: string;
-  text: string;
-  href?: string;
-}
+
 
 const diagrams:DiagramLanguage[] = [
   {
@@ -42,7 +38,6 @@ const GeneralPlan = () => {
     
         <section 
             tabIndex={0} 
-            
             className="mb-4 p-8"
         >
 
