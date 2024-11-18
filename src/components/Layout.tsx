@@ -9,7 +9,6 @@ import Footer from "./Footer";
 const Layout = ()=> {
   return (
     <div className="mx-auto">
-      
       <Translator />
       <Header />
       <MainContent />
