@@ -1,17 +1,7 @@
 import Hero from "./children/Hero";
 import Subtitle from "./children/Subtitle";
 import Sidebar from "./children/Sidebar";
-import Connections from "./children/Connections";
 
-
-
-const followLinks ={
-    facebook: "https://m.facebook.com/CaliforniaStateParks/",
-    twitter: "https://x.com/CAStateParks",
-    youtube: "https://www.youtube.com/user/CaliforniaStateParks",
-    instagram: "https://www.instagram.com/castateparks/",
-    wordpress: "https://castateparks.wordpress.com/",
-}
 
 
 const MainContent = () => {
@@ -28,7 +18,7 @@ const MainContent = () => {
                 </div>
             </div>
 
-            <Connections followLinks={followLinks}/>
+            
         </main>
     );
 }
