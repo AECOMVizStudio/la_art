@@ -50,7 +50,7 @@ const GeneralPlan = () => {
                 
           </p>
         <p className="font-medium pt-4">
-        To provide written input using the online input form, <a href='https://www.surveymonkey.com/r/lastatehistoricparkgpa' target="_blank" className="text-blue-500 underline font-bold">click here</a>. You may also email State Parks at <span className="font-bold">lastatehistoricparkgpa@parks.ca.gov</span> or mail your feedback to:
+        To provide written input using the online input form, <a href='https://www.surveymonkey.com/r/lastatehistoricparkgpa' target="_blank" className="text-blue-500 underline font-bold">click here</a>. You may also email State Parks at <a className="font-bold" href="mailto:lastatehistoricparkgpa@parks.ca.gov">lastatehistoricparkgpa@parks.ca.gov</a> or mail your feedback to:
         </p>
           <div className="font-normal pt-4 mx-4">
               <div className="py-2">
@@ -59,7 +59,9 @@ const GeneralPlan = () => {
                   <p>PO Box 942896 Sacramento CA 94296-0001</p>
               </div>
             </div>
-
+            <p className="font-medium pt-4">
+            This initial input period will be open until Sunday, December 15, 2024. There will be additional opportunities to ask questions and share your thoughts at future public meetings.
+        </p>
           <Expandable props={diagrams}/>
     
         </section>
