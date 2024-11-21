@@ -174,7 +174,7 @@ const Meetings = () => {
         </div>
       </div>
       <div className="font-medium pb-4">
-        Recordings of the virtual meeting are available here:
+        Recordings of the virtual meeting are available below:
       </div>
       <VideosExpandable props={videoData} />
       <div className="font-medium pb-4">
