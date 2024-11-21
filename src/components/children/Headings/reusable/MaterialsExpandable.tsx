@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import { MaterialsExpandableProps } from '../../../../interfaces';
 
-const MaterialsExpandable = ({ props }: MaterialsExpandableProps) => {
+const MaterialsExpandable = memo(({ props }: MaterialsExpandableProps) => {
 
   const [expanded, setExpanded] = useState<boolean>(false)
 
@@ -53,6 +53,6 @@ const MaterialsExpandable = ({ props }: MaterialsExpandableProps) => {
       </div>
     </div>
   )
-}
+})
   
   export default MaterialsExpandable

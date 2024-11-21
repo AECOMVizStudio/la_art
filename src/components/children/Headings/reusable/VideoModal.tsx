@@ -1,10 +1,14 @@
-import { useState } from 'react'
+import { useState, memo } from 'react'
 import ModalVideo from 'react-modal-video'
 import './modal-video.scss'
 
+//types
+import { VideoModalProps } from '../../../../interfaces'
 
 
-const VideoModal = () => {
+
+
+const VideoModal = memo(( { video }:VideoModalProps ) => {
 
 const [isOpen, setOpen] = useState(false);
   return (
@@ -13,13 +17,16 @@ const [isOpen, setOpen] = useState(false);
             channel='vimeo'
             vimeo={{ autoplay: true }}
             isOpen={isOpen}
-            videoId='1031612219'
+            videoId={video.vimeoCode}
             onClose={() => setOpen(false)}
             
         />
-        <button onClick={() => setOpen(true)}>Open</button>
+        <div onClick={() => setOpen(true)} className='z-20 hover:cursor-pointer '>
+
+            <img src={video.thumbnailImg} alt={video.title} className='w-full'></img>
+        </div>
     </>
   )
-}
+})
 
 export default VideoModal

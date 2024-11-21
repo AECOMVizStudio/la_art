@@ -35,38 +35,19 @@ const diagrams:DiagramLanguage[] = [
 
 const GeneralPlan = () => {
   return (
-    
-        <section 
-            tabIndex={0} 
-            className="mb-4 p-8"
-        >
-
-        <h2 className="text-3xl yeseva font-bold text-burnt-orange">
-        Los Angeles State Historic Park (LASHP) General Plan Amendment (GPA) Process       
-        </h2>
-
-        <p className="font-medium pt-4">
+    <section tabIndex={0} className="mb-4 p-8">
+      <h2 className="text-3xl yeseva font-bold text-burnt-orange">
+        Los Angeles State Historic Park (LASHP) General Plan Amendment (GPA) Process
+      </h2>
+      <p className="font-medium pt-4">
         California State Parks is initiating a GPA process for LASHP to review and consider direct transit access via the proposed Los Angeles Aerial Rapid Transit (LA ART) aerial gondola project. If you wish to be involved and provide input, please join our email list by clicking the button under “Sign up to receive LASHP General Plan Amendment information.”
-                
-          </p>
-        <p className="font-medium pt-4">
-        To provide written input using the online input form, <a href='https://www.surveymonkey.com/r/lastatehistoricparkgpa' target="_blank" className="text-blue-500 underline font-bold">click here</a>. You may also email State Parks at <a className="font-bold" href="mailto:lastatehistoricparkgpa@parks.ca.gov">lastatehistoricparkgpa@parks.ca.gov</a> or mail your feedback to:
-        </p>
-          <div className="font-normal pt-4 mx-4">
-              <div className="py-2">
-                  <p className="font-bold">Strategic Planning and Recreation Services Division</p>
-                  <p>c/o LASHP GPA</p>
-                  <p>PO Box 942896 Sacramento CA 94296-0001</p>
-              </div>
-            </div>
-            <p className="font-medium pt-4">
-            This initial input period will be open until Sunday, December 15, 2024. There will be additional opportunities to ask questions and share your thoughts at future public meetings.
-        </p>
-          <Expandable props={diagrams}/>
-    
-        </section>
-        
-  )
-}
+      </p>
+      <p className="font-medium pt-4">
+        This initial input period will be open until Sunday, December 15, 2024. There will be additional opportunities to ask questions and share your thoughts at future public meetings.
+      </p>
+      <Expandable props={diagrams} />
+    </section>
+  );
+};
 
 export default GeneralPlan

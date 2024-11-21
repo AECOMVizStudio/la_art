@@ -23,10 +23,14 @@ export interface ExpandableProps {
 // used in VideosExpandable.tsx
 export interface VideoData {
     title: string;
-    href: string;
+    vimeoCode: string;
     thumbnailImg: string;
     language: string;
 }
 export interface VideosExpandableProps {
     props: VideoData[];
+}
+// used in VideoModal.tsx
+export interface VideoModalProps {
+    video: VideoData;
 }

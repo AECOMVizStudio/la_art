@@ -1,19 +1,24 @@
 import { useState } from 'react';
 import { VideosExpandableProps } from '../../../../interfaces';
+import VideoModal from "./VideoModal"
 
-const MaterialsExpandable = ({ props }: VideosExpandableProps) => {
-
-  const [expanded, setExpanded] = useState<boolean>(false)
+const VideosExpandable = ({ props }: VideosExpandableProps) => {
+  const [expanded, setExpanded] = useState<boolean>(true)
 
   const expandHandler = () => {
     setExpanded(prev => !prev)
-  }
+  };
 
+  if (!props || props.length === 0) {
+    return <div>No videos currently available</div>
+  }
+  
   return (
     <div className='mb-4'>
-      {/* mobile view */}
-      <div onClick={expandHandler}>
-        <div className="bg-gray-200 flex justify-between p-2 hover:cursor-pointer">
+
+      {/* all versions expandable view */}
+      <div>
+        <div className="bg-gray-200 flex justify-between p-2 hover:cursor-pointer" onClick={expandHandler}>
           <p className='text-left font-bold'>{props[0].title}</p>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transition-transform duration-300 ease-in-out" fill="none" viewBox="0 0 24 24" stroke="currentColor"
             style={{ transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)' }}
@@ -22,37 +27,19 @@ const MaterialsExpandable = ({ props }: VideosExpandableProps) => {
           </svg>
         </div>
 
-        <div className={expanded ? 'grid grid-cols-4 gap-0' : 'hidden'}>
-          {props.map((material) => {
+        <div className={expanded ? 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 hover:pointer' : 'hidden'} >
+        {props.map((video) => {
             return (
-              <div key={material.title} className="flex justify-start items-center sm:items-stretch p-1 sm:p-2 text-blue-500 underline border-2">
-                <a href={material.href}
-                  target="_blank"
-                  rel="noopener noreferrer">{material.thumbnailImg}</a>
+              <div key={video.vimeoCode} className="flex justify-start items-center sm:items-stretch p-1 mt-1 sm:p-2 border-2 hover:border-burnt-orange">
+                <VideoModal video={video} />
               </div>
             )
-          })}
-        </div>
-      </div>
-      {/* desktop view, client requested all views use mobile view so the following is not used*/}
-      <div className="hidden min-w-full ">
-        <p className='px-2 py-4 border-y-4 font-bold w-1/4'>{props[0].title}</p>
-        {props.map((material) => {
-          return (
-            <div  className='border-t-4 border-b-4 border-l-2 flex items-center justify-center lg:px-2 xl:px-4'
-            key={material.language}>
-              <a
-                href={material.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 semibold underline"
-              >{material.language}</a>
-            </div>
-          )
         })}
+
+        </div>
       </div>
     </div>
   )
 }
   
-  export default MaterialsExpandable
+  export default VideosExpandable
