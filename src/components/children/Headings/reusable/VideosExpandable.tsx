@@ -21,7 +21,9 @@ const VideosExpandable = ({ props }: VideosExpandableProps) => {
           className="bg-gray-200 flex justify-between p-2 hover:cursor-pointer"
           onClick={expandHandler}
         >
-          <p className="text-left font-bold">{props[0].title}</p>
+          <p className="text-left font-bold">
+            Virtual Public Meeting Recordings - All Languages
+          </p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 transition-transform duration-300 ease-in-out"
