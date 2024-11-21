@@ -1,6 +1,41 @@
 import MaterialsExpandable from "./reusable/MaterialsExpandable"
-import { MeetingMaterials } from "../../../interfaces"
+import VideosExpandable from "./reusable/VideosExpandable"
+import { MeetingMaterials, VideoData } from "../../../interfaces"
+// import Videos from "../../../pages/Videos"
+import VideoModal from "./reusable/VideoModal"
 
+const videoData: VideoData[] = [
+  {
+    title: "Virtual Public Meeting Recording",
+    href: "https://www.youtube.com/watch?v=1K2z5w1dX7I",
+    thumbnailImg: "/images/placeholder.jpg",
+    language: "English",
+  },
+  {
+    title: "Virtual Public Meeting Recording",
+    href: "https://www.youtube.com/watch?v=1K2z5w1dX7I",
+    thumbnailImg: "/images/placeholder.jpg",
+    language: "English",
+  },
+  {
+    title: "Virtual Public Meeting Recording",
+    href: "https://www.youtube.com/watch?v=1K2z5w1dX7I",
+    thumbnailImg: "/images/placeholder.jpg",
+    language: "English",
+  },
+  {
+    title: "Virtual Public Meeting Recording",
+    href: "https://www.youtube.com/watch?v=1K2z5w1dX7I",
+    thumbnailImg: "/images/placeholder.jpg",
+    language: "English",
+  },
+  {
+    title: "Virtual Public Meeting Recording",
+    href: "https://www.youtube.com/watch?v=1K2z5w1dX7I",
+    thumbnailImg: "/images/placeholder.jpg",
+    language: "English",
+  },
+]
 const inPersonPublicMeetingPresentationBoards: MeetingMaterials[] =[
   {
     key: 1,
@@ -86,7 +121,8 @@ const Meetings = () => {
         <section 
         tabIndex={0} 
         className="border-t border-gray-300 mb-8 p-8"
-    >
+        >
+          <VideoModal />
   
           <h2 className="text-3xl yeseva font-bold text-burnt-orange pb-4">
           Meetings and Materials
@@ -117,7 +153,7 @@ const Meetings = () => {
 
             </div>
             <div className="font-medium pb-4">Recordings of the virtual meeting are available here:</div>
-            {/* Implement VideosExpandable here */}
+            <VideosExpandable props={videoData} />
           <div className="font-medium pb-4">Materials for the General Plan Amendment Public Meetings are available in English, Spanish, Chinese (Traditional), and Chinese (Simplified) below:</div>
 
           <MaterialsExpandable props={inPersonPublicMeetingPresentationBoards} />

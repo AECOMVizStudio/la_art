@@ -19,3 +19,14 @@ export interface DiagramLanguage {
 export interface ExpandableProps {
     props: DiagramLanguage[];
 }
+
+// used in VideosExpandable.tsx
+export interface VideoData {
+    title: string;
+    href: string;
+    thumbnailImg: string;
+    language: string;
+}
+export interface VideosExpandableProps {
+    props: VideoData[];
+}
