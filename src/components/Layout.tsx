@@ -1,12 +1,9 @@
-import Translator from "./tools/Translator";
-import Header from "./Header";
-import MainContent from "./MainContent";
-import Footer from "./Footer";
+import Translator from './tools/Translator';
+import Header from './Header';
+import MainContent from './MainContent';
+import Footer from './Footer';
 
-
-
-
-const Layout = ()=> {
+const Layout = () => {
   return (
     <div className="mx-auto">
       <Translator />
@@ -15,6 +12,6 @@ const Layout = ()=> {
       <Footer />
     </div>
   );
-}
+};
 
 export default Layout;

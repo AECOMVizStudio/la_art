@@ -1,17 +1,16 @@
-import Translator from "../components/tools/Translator";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
+import Translator from '../components/tools/Translator';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Videos = () => {
   return (
     <>
-    <Translator />
-    <Header />
-    
-    <Footer />
-    </>
-  )
-}
+      <Translator />
+      <Header />
 
-export default Videos
+      <Footer />
+    </>
+  );
+};
+
+export default Videos;
