@@ -5,12 +5,12 @@ import Layout from './components/Layout';
 import Videos from './pages/Videos';
 
 // GA4 tracking
-import usePageTracking from './usePageTracking';
+import PageTracker from './usePageTracking';
 
 function App() {
-  usePageTracking();
   return (
     <Router>
+      <PageTracker />
       <Routes>
         <Route
           path="/"

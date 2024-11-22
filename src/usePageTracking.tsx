@@ -27,4 +27,9 @@ const usePageTracking = () => {
   }, [location]);
 };
 
-export default usePageTracking;
+const PageTracker = () => {
+  usePageTracking();
+  return null;
+};
+
+export default PageTracker;
