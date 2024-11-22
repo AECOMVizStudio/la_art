@@ -140,13 +140,6 @@ const Meetings = () => {
         project, and to collect input on ideas and suggestions to be considered
         during the GPA process. These two meetings covered the same content.
       </p>
-      <p className="font-medium pt-4">
-        Interpretation will be provided at the Public Meetings in Spanish,
-        Cantonese, Mandarin, and Taishanese. For ADA accommodations, please
-        email{' '}
-        <span className="text-blue-500 underline">planning@parks.ca.gov</span>{' '}
-        at least 72 hours before either meeting.
-      </p>
 
       <div className="bg-gradient-to-br from-[rgba(214,128,0,0.75)] to-[rgba(227,175,55,0.75)] border-2 border-gray-200 rounded-lg p-2 my-4 md:px-4">
         <span className="font-semibold py-4 text-lg">Previous Meetings:</span>
@@ -172,6 +165,11 @@ const Meetings = () => {
             Tuesday, November 12, 2024, 6:00 - 7:00 PM{' '}
           </p>
         </div>
+        <p className="font-normal pt-4">
+          Interpretation was provided at the Public Meetings in Spanish,
+          Cantonese, Mandarin, and Taishanese. ADA accommodations were available
+          upon request at both meetings.
+        </p>
       </div>
       <div className="font-medium pb-4">
         Recordings of the virtual meeting are available below:
@@ -179,8 +177,10 @@ const Meetings = () => {
       <VideosExpandable props={videoData} />
       <div className="font-medium pb-4">
         Materials for the General Plan Amendment Public Meetings are available
-        in English, Spanish, Chinese (Traditional), and Chinese (Simplified)
-        below:
+        on in English, Spanish, Chinese (Traditional), and Chinese (Simplified)
+        below. This initial input period will be open until 11:59 pm PT on
+        Sunday, December 15, 2024. There will be additional opportunities to ask
+        questions and share your thoughts at future public meetings.
       </div>
 
       <MaterialsExpandable props={inPersonPublicMeetingPresentationBoards} />
