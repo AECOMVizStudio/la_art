@@ -4,7 +4,11 @@ import './App.css';
 import Layout from './components/Layout';
 import Videos from './pages/Videos';
 
+// GA4 tracking
+import usePageTracking from './usePageTracking';
+
 function App() {
+  usePageTracking();
   return (
     <Router>
       <Routes>
