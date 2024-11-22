@@ -177,7 +177,7 @@ const Meetings = () => {
       <VideosExpandable props={videoData} />
       <div className="font-medium pb-4">
         Materials for the General Plan Amendment Public Meetings are available
-        on in English, Spanish, Chinese (Traditional), and Chinese (Simplified)
+        in English, Spanish, Chinese (Traditional), and Chinese (Simplified)
         below. This initial input period will be open until 11:59 pm PT on
         Sunday, December 15, 2024. There will be additional opportunities to ask
         questions and share your thoughts at future public meetings.
