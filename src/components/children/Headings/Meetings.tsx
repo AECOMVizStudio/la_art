@@ -126,8 +126,8 @@ const Meetings = () => {
       </h2>
 
       <p className="font-medium pt-4">
-        The LASHP GPA public outreach effort will begin in November 2024 and
-        will extend into Spring 2025.
+        The LASHP GPA public outreach effort began in November 2024 and will
+        extend into Spring 2025.
       </p>
       <div className="font-medium pt-4">
         If you wish to receive plan and meeting notifications, please sign up by
@@ -178,9 +178,10 @@ const Meetings = () => {
       <div className="font-medium pb-4">
         Materials for the General Plan Amendment Public Meetings are available
         in English, Spanish, Chinese (Traditional), and Chinese (Simplified)
-        below. This initial input period will be open until 11:59 pm PT on
-        Sunday, December 15, 2024. There will be additional opportunities to ask
-        questions and share your thoughts at future public meetings.
+        below. This initial input period will be open until 11:59 pm Pacific
+        Time on Sunday, December 15, 2024. There will be additional
+        opportunities to ask questions and share your thoughts at future public
+        meetings.
       </div>
 
       <MaterialsExpandable props={inPersonPublicMeetingPresentationBoards} />

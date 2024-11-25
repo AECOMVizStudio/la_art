@@ -48,8 +48,8 @@ const GeneralPlan = () => {
       </p>
       <p className="font-medium pt-4">
         <span className="font-bold">
-          This initial input period will be open until 11:59 pm PT on Sunday,
-          December 15.
+          This initial input period will be open until 11:59 pm Pacific Time on
+          Sunday, December 15.
         </span>
         There will be additional opportunities to ask questions and share your
         thoughts at future public meetings.
