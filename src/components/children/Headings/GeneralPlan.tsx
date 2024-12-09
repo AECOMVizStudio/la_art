@@ -46,6 +46,15 @@ const GeneralPlan = () => {
         button under “Sign up to receive LASHP General Plan Amendment
         information.”
       </p>
+      <div className="font-normal pt-4 mx-4">
+        <div className="py-2">
+          <p className="font-bold">
+            Strategic Planning and Recreation Services Division
+          </p>
+          <p>c/o LASHP GPA</p>
+          <p>PO Box 942896 Sacramento CA 94296-0001</p>
+        </div>
+      </div>
       <p className="font-medium pt-4">
         <span className="font-bold">
           This initial input period will be open until 11:59 pm Pacific Time on
