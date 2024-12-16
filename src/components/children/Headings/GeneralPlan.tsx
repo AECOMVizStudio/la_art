@@ -61,10 +61,6 @@ const GeneralPlan = () => {
         </a>
         . Questions can also be directed to State Parks via email at
         lastatehistoricparkgpa@parks.ca.gov or by mail at:
-        <span className="font-bold">
-          lastatehistoricparkgpa@parks.ca.gov
-        </span>{' '}
-        or mail your feedback to:
       </p>
       <div className="font-normal pt-4 mx-4">
         <div className="py-2">
