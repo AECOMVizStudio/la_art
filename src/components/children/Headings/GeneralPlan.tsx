@@ -47,16 +47,23 @@ const GeneralPlan = () => {
         information.”
       </p>
       <p className="font-medium pt-4">
-        To provide written input using the online input form,{' '}
+        Input that was provided by December 15, 2024, will be considered as
+        State Parks develops draft GPA options. However, State Parks continues
+        to welcome additional feedback and input throughout the GPA process. An
+        online input form is available
         <a
           href="https://www.surveymonkey.com/r/lastatehistoricparkgpa"
           target="_blank"
           className="text-blue-500 underline font-bold"
         >
-          click here
+          {' '}
+          here
         </a>
-        . You may also email State Parks at{' '}
-        <span className="font-bold">lastatehistoricparkgpa@parks.ca.gov</span>{' '}
+        Questions can also be directed to State Parks via email at
+        lastatehistoricparkgpa@parks.ca.gov or by mail at:
+        <span className="font-bold">
+          lastatehistoricparkgpa@parks.ca.gov
+        </span>{' '}
         or mail your feedback to:
       </p>
       <div className="font-normal pt-4 mx-4">
@@ -69,12 +76,14 @@ const GeneralPlan = () => {
         </div>
       </div>
       <p className="font-medium pt-4">
-        <span className="font-bold">
+        {/* <span className="font-bold">
           This initial input period will be open until 11:59 pm Pacific Time on
           Sunday, December 15.
-        </span>
-        There will be additional opportunities to ask questions and share your
-        thoughts at future public meetings.
+        </span> */}
+        There will be additional opportunities to ask questions and share input
+        at future public meetings, with the next sessions scheduled for early
+        2025. Updates about public meetings will be shared on this webpage and
+        via email and social media.
       </p>
       <Expandable props={diagrams} />
     </section>
