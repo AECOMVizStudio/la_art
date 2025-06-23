@@ -1,10 +1,17 @@
-# netlify.toml at the monorepo root (React project)
-[[redirects]]          # 1. let real files under /voh win
-from = "/voh/*"
-to   = "/voh/:splat"
-status = 200
+# 1) Bare path → index.html
+[[redirects]]
+from   = "/voh"
+to     = "/voh/index.html"
+status = 301          # 301 = permanent
 
-[[redirects]]          # 2. SPA fallback for EVERYTHING ELSE
-from = "/*"
-to   = "/index.html"
+# 2) Let real files under /voh/ win
+[[redirects]]
+from   = "/voh/*"
+to     = "/voh/:splat"
+status = 200          # 200 = rewrite, URL stays the same
+
+# 3) Everything else is the React SPA
+[[redirects]]
+from   = "/*"
+to     = "/index.html"
 status = 200
