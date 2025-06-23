@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: url('assets/IMG_5253.webp') no-repeat center center fixed;
+  background-size: cover;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.hub-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 680px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  width: 90%;
+}
+
+
+
+.hub-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hub-logo {
+  max-width: 280px;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+
+.language-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap; /* allows it to stack nicely on mobile */
+}
+
+
+.lang-card {
+  display: block;
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 260px;            /* increased from 200px */
+  padding: 1.5rem;
+  text-decoration: none;
+  color: #111;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+
+
+
+.lang-card:hover,
+.lang-card:focus {
+  transform: scale(1.05);
+  box-shadow: 0 0 0 4px #4caf50;
+  outline: none;
+}
+
+
+.hub-subtitle {
+  font-size: 1rem;
+  color: #555;
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.5;
+}
+
+.lang-card h2 {
+  font-size: 1.4rem;
+  margin: 0 0 0.25rem;
+  line-height: 1.1;
+  word-break: keep-all;         /* prevent awkward mid-word breaks */
+  white-space: nowrap;          /* keeps double-character labels on one line if possible */
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+
+/* Optional: scale font down slightly on narrower screens */
+@media (max-width: 480px) {
+  .lang-card h2 {
+    font-size: 1.4rem;
+  }
+    .hub-container {
+    margin: 2rem 1rem;
+  }
+}
+
+
+

@@ -1,0 +1,10 @@
+# netlify.toml at the monorepo root (React project)
+[[redirects]]          # 1. let real files under /voh win
+from = "/voh/*"
+to   = "/voh/:splat"
+status = 200
+
+[[redirects]]          # 2. SPA fallback for EVERYTHING ELSE
+from = "/*"
+to   = "/index.html"
+status = 200
