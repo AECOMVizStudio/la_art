@@ -52,6 +52,20 @@ const About = () => {
       </p>
 
       <Expandable props={diagrams} />
+
+        <p className="font-medium pt-4">
+        Questions can also be directed to State Parks via email at
+        lastatehistoricparkgpa@parks.ca.gov or by mail at:
+      </p>
+      <div className="font-normal pt-4 mx-4">
+        <div className="py-2">
+          <p className="font-bold">
+            Strategic Planning and Recreation Services Division
+          </p>
+          <p>c/o LASHP GPA</p>
+          <p>PO Box 942896 Sacramento CA 94296-0001</p>
+        </div>
+      </div>
     </section>
   );
 };
