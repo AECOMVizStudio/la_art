@@ -2,7 +2,7 @@ import React from "react";
 
 
 const FeedbackBox: React.FC = () => (
-    <div className="relative mt-4 p-6 bg-gray-200 bg-opacity-20 backdrop-blur-sm rounded-2xl shadow-sm
+    <div className="relative cursor-pointer mt-4 p-6 bg-gray-200 bg-opacity-20 backdrop-blur-sm rounded-2xl shadow-sm
     transform hover:-translate-y-1 hover:shadow-xl transition duration-200 ease-out">
       {/* Pulsing burnt orange border */}
       <div className="absolute inset-0 rounded-2xl border-4 border-[#d68100] animate-pulse pointer-events-none"></div>
