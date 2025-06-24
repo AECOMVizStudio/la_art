@@ -1,37 +1,11 @@
-import Expandable from './reusable/Expandable';
-import { DiagramLanguage } from '../../../interfaces';
+
 
 import FeedbackBox from '../FeedbackBox/FeedbackBox';
 
 // this should be done via looping through an array of objects with the section's data, but I couldn't get it to work in time, so they are just hardcoded.
 // The placement of the links within the body text was proving to be the issue. Maybe if it was concatenated? I'll have to revisit this.
 
-const diagrams: DiagramLanguage[] = [
-  {
-    language: 'English',
-    abbreviation: 'EN',
-    text: 'English',
-    href: '/pdf/General Plan Amendment Process.pdf',
-  },
-  {
-    language: 'Spanish',
-    abbreviation: 'SP',
-    text: 'Spanish',
-    href: '/pdf/GPA Process_sp_accessible.pdf',
-  },
-  {
-    language: 'Traditional Chinese',
-    abbreviation: 'ZH',
-    text: 'Chinese - Traditional',
-    href: '/pdf/GPA Process_tc_accessible.pdf',
-  },
-  {
-    language: 'Simplified Chinese',
-    abbreviation: 'ZH',
-    text: 'Chinese - Simplified ',
-    href: '/pdf/GPA Process_sc_accessible.pdf',
-  },
-];
+
 
 const GeneralPlan = () => {
   return (
@@ -51,17 +25,8 @@ const GeneralPlan = () => {
 
       <FeedbackBox />
 
-      <p className="font-medium pt-4">
-        {/* <span className="font-bold">
-          This initial input period will be open until 11:59 pm Pacific Time on
-          Sunday, December 15.
-        </span> */}
-        There will be additional opportunities to ask questions and share input
-        at future public meetings, with the next sessions scheduled for early
-        2025. Updates about public meetings will be shared on this webpage and
-        via email and social media.
-      </p>
-      <Expandable props={diagrams} />
+
+      
     </section>
   );
 };
