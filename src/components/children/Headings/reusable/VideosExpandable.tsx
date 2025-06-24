@@ -3,7 +3,7 @@ import { VideosExpandableProps } from '../../../../interfaces';
 import VideoModal from './VideoModal';
 
 const VideosExpandable = ({ props }: VideosExpandableProps) => {
-  const [expanded, setExpanded] = useState<boolean>(true);
+  const [expanded, setExpanded] = useState<boolean>(false);
 
   const expandHandler = () => {
     setExpanded((prev) => !prev);
