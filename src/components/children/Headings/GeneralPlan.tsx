@@ -1,10 +1,6 @@
-
-
 import FeedbackBox from '../FeedbackBox/FeedbackBox';
 
-// this should be done via looping through an array of objects with the section's data, but I couldn't get it to work in time, so they are just hardcoded.
-// The placement of the links within the body text was proving to be the issue. Maybe if it was concatenated? I'll have to revisit this.
-
+import MeetingsBox from '../MeetingsBox/MeetingsBox';
 
 
 const GeneralPlan = () => {
@@ -24,6 +20,11 @@ const GeneralPlan = () => {
       </p>
 
       <FeedbackBox />
+
+      <div className='pt-8'>
+        <h2 className='text-xl font-bold yeseva underline'>Upcoming Meetings and Materials</h2>
+        <MeetingsBox />
+      </div>
 
 
       
