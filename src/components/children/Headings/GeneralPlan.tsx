@@ -26,6 +26,13 @@ const GeneralPlan = () => {
         <MeetingsBox />
       </div>
 
+      <p className="font-medium pt-4">
+        Interpretation will be provided at the In-person Public Meeting and Virtual Information Session in Spanish, Cantonese, Mandarin, and Taishanese.  
+      </p>
+      <p className="font-medium pt-4">
+       Meeting materials will be available in English, Spanish, Chinese (Traditional), and Chinese (Simplified) beginning on July 19, 2025.  
+      </p>
+
 
       
     </section>
