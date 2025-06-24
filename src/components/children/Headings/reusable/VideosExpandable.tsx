@@ -22,7 +22,7 @@ const VideosExpandable = ({ props }: VideosExpandableProps) => {
           onClick={expandHandler}
         >
           <p className="text-left font-bold">
-            Virtual Public Meeting Recording - November 12, 2024
+            Virtual Public Meeting Recording
           </p>
           <svg
             xmlns="http://www.w3.org/2000/svg"

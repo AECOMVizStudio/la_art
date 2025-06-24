@@ -47,7 +47,7 @@ const About = () => {
       </p>
       <p className="font-medium pt-4">
         State Parks' General Plan Amendment process involves a public outreach effort to provide information and to gather 
-        input for the State Park and Recreation Commission’s consideration of the LASHP General Plan Amendment. 
+        input for the State Park and Recreation Commission's consideration of the LASHP General Plan Amendment. 
         California State Parks will conduct several public meetings throughout the GPA process to provide information and receive comment and input. 
       </p>
 
