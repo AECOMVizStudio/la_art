@@ -1,6 +1,6 @@
 const MeetingsBox: React.FC = () => {
   return (
-    <div className="p-6 rounded-2xl border-2 border-gray-300 md:border-0">
+    <div className="p-2 md:p-6 rounded-2xl border-2 border-gray-300 md:border-0">
       {/* Responsive two-column layout: stacks on mobile */}
       <div className="grid grid-cols-1 md:grid-cols-2 divide-gray-300 divide-y-2 md:divide-y-0 md:divide-x-2 font-normal">
         <div className="pr-0 md:pr-4 pb-4 md:pb-0 space-y-4  text-black">
@@ -26,7 +26,7 @@ const MeetingsBox: React.FC = () => {
             6:00 - 7:00 PM
           </p>
           <p>
-            <a href="https://us06web.zoom.us/j/81465260300" className="underline">
+            <a href="https://us06web.zoom.us/j/81465260300" className="underline flex-wrap">
               https://us06web.zoom.us/j/81465260300
             </a>
           </p>
