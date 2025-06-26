@@ -9,10 +9,13 @@ const FeedbackBox: React.FC = () => (
       {/* Static content */}
       <div className="relative space-y-2 text-center">
         <p className="text-2xl font-bold text-neutral-900">
-          Access the Virtual Open House to view the GPA Options and Provide Your Feedback
+          Access the Virtual Open House to view the GPA Options and
+        </p>
+        <p className="text-2xl font-bold text-neutral-900">
+          Provide Your Feedback
         </p>
         <p className="text-md text-gray-900">
-          [Coming Soon! Available starting July 19, 2025]
+          Coming Soon! Available starting July 19, 2025
         </p>
       </div>
     </div>
