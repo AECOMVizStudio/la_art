@@ -63,7 +63,8 @@ const About = () => {
             Strategic Planning and Recreation Services Division
           </p>
           <p>c/o LASHP GPA</p>
-          <p>PO Box 942896 Sacramento CA 94296-0001</p>
+          <p>PO Box 942896</p>
+          <p>Sacramento, CA 94296-0001</p>
         </div>
       </div>
     </section>

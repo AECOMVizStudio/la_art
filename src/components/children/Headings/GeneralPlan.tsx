@@ -21,12 +21,12 @@ const GeneralPlan = () => {
       <FeedbackBox />
 
       <div className='pt-8'>
-        <h2 className='text-xl font-bold yeseva underline'>Upcoming Meetings and Materials</h2>
+        <h2 className='text-xl font-bold yeseva underline text-burnt-orange'>Upcoming Meetings and Materials</h2>
         <MeetingsBox />
       </div>
 
       <p className="font-medium pt-4">
-        Interpretation will be provided at the In-person Public Meeting and Virtual Information Session in Spanish, Cantonese, Mandarin, and Taishanese.  
+        Interpretation will be provided at the In-Person Public Meeting and Virtual Information Session in Spanish, Cantonese, Mandarin, and Taishanese.  
       </p>
       <p className="font-medium pt-4">
        Meeting materials will be available in English, Spanish, Chinese (Traditional), and Chinese (Simplified) beginning on July 19, 2025.  

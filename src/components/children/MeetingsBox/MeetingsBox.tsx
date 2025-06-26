@@ -15,7 +15,7 @@ const MeetingsBox: React.FC = () => {
             Limited parking is available on site. Attendees are encouraged to take transit or utilize street parking.
           </p>
           <p>
-            <span className="font-bold">Please note:</span> To ensure a safe and equitable meeting for all, each attendee is asked to respect the meeting format so that all attendees have an opportunity to speak with the project team. Each attendee is expected to maintain a conversational tone, and to treat all other attendees, including project team members, with respect. Posters, signs and bullhorns are not allowed in the meeting. Any attendee behaving in a manner inconsistent with the meeting format will be asked to leave the meeting.
+            <span className="font-bold">Please note:</span> To ensure a safe and equitable meeting for all, each attendee is asked to respect the meeting format so that all attendees have an opportunity to speak with the project team. Each attendee is expected to maintain a conversational tone, and to treat all other attendees, including project team members, with respect. Posters, signs, and bullhorns are not allowed in the meeting. Any attendee behaving in a manner inconsistent with the meeting format will be asked to leave the meeting.
           </p>
         </div>
         <div className="pt-4 md:pt-0 pl-0 md:pl-4 space-y-4 text-black">

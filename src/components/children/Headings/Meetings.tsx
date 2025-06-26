@@ -106,7 +106,7 @@ const Meetings = () => {
       </p>
 
       <div className="my-4 md:px-4">
-        <span className="font-semibold py-4 text-lg">Previous Meetings:</span>
+        
         <div className="font-normal">
           <div className="font-semibold py-4 text-lg">
             In-Person Meeting: Los Angeles State Historic Park General Plan Amendment 
@@ -134,19 +134,14 @@ const Meetings = () => {
           Cantonese, Mandarin, and Taishanese. ADA accommodations were available
           upon request at both meetings.
         </p>
-      </div>
-      <div className="font-medium pb-4">
+      <div className="font-medium py-4">
         Recordings of the virtual meeting are available below:
       </div>
       <VideosExpandable props={videoData} />
-      <div className="font-medium pb-4">
-        Materials for the first round of General Plan Amendment Public Meetings
-        are available in English, Spanish, Chinese (Traditional), and Chinese
-        (Simplified) below.
-      </div>
 
       
       <MaterialsExpandable props={virtualPublicMeetingPresentation} />
+      </div>
       {/*  
       <div className="font-medium pb-4 display">
         Public Input Form (online link):{' '}
