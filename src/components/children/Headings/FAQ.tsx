@@ -46,7 +46,7 @@ const FAQ = () => {
   return (
     <section tabIndex={0} className="border-t border-gray-300 mb-8 p-8">
       <h2 className="text-3xl yeseva font-bold text-burnt-orange">FAQ</h2>
-      <h3 className="font-semibold pt-4">As of September 12, 2024 with June 23, 2025 updates</h3>
+      <h3 className="font-semibold pt-4">Updated July 18, 2025</h3>
       {faq.map((item, index) => (
         <div key={index}>
           <h4 className="font-semibold pt-4">{item.question}</h4>
