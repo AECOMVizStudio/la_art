@@ -91,32 +91,32 @@ const virtualPublicMeetingPresentation: MeetingMaterials[] = [
     ref: '/pdf/VPMP/LASHP GPA_Presentation_Simplified Chinese.pdf',
   },
 ];
-const publicInputForms: MeetingMaterials[] = [
-  {
-    key: 1,
-    document: 'Public Input Form (PDF)',
-    label: 'English',
-    ref: '/pdf/Forms/LASHP GPA_Input Form_English.pdf',
-  },
-  {
-    key: 2,
-    document: 'Public Input Form (PDF)',
-    label: 'Spanish',
-    ref: '/pdf/Forms/LASHP GPA_Input Form_Spanish.pdf',
-  },
-  {
-    key: 3,
-    document: 'Public Input Form (PDF)',
-    label: 'Chinese - Traditional',
-    ref: '/pdf/Forms/LASHP GPA_Input Form_Traditional Chinese.pdf',
-  },
-  {
-    key: 4,
-    document: 'Public Input Form (PDF)',
-    label: 'Chinese - Simplified',
-    ref: '/pdf/Forms/LASHP GPA_Input Form_Simplified Chinese.pdf',
-  },
-];
+// const publicInputForms: MeetingMaterials[] = [
+//   {
+//     key: 1,
+//     document: 'Public Input Form (PDF)',
+//     label: 'English',
+//     ref: '/pdf/Forms/LASHP GPA_Input Form_English.pdf',
+//   },
+//   {
+//     key: 2,
+//     document: 'Public Input Form (PDF)',
+//     label: 'Spanish',
+//     ref: '/pdf/Forms/LASHP GPA_Input Form_Spanish.pdf',
+//   },
+//   {
+//     key: 3,
+//     document: 'Public Input Form (PDF)',
+//     label: 'Chinese - Traditional',
+//     ref: '/pdf/Forms/LASHP GPA_Input Form_Traditional Chinese.pdf',
+//   },
+//   {
+//     key: 4,
+//     document: 'Public Input Form (PDF)',
+//     label: 'Chinese - Simplified',
+//     ref: '/pdf/Forms/LASHP GPA_Input Form_Simplified Chinese.pdf',
+//   },
+// ];
 
 const Meetings = () => {
   return (
@@ -126,14 +126,9 @@ const Meetings = () => {
       </h2>
 
       <p className="font-medium pt-4">
-        The LASHP GPA public outreach effort began in November 2024 and will
-        extend into 2025.
+        The LASHP GPA public outreach effort began in November 2024.
       </p>
-      <div className="font-medium pt-4">
-        If you wish to receive plan and meeting notifications, please sign up by
-        clicking the button under “Sign up to receive LASHP General Plan
-        Amendment information.”{' '}
-      </div>
+
       <p className="font-medium pt-4">
         California State Parks hosted two initial public meetings in November
         2024 to provide information on the LASHP GPA process and the LA ART
@@ -183,17 +178,11 @@ const Meetings = () => {
 
       <MaterialsExpandable props={inPersonPublicMeetingPresentationBoards} />
       <MaterialsExpandable props={virtualPublicMeetingPresentation} />
-      <div className="font-medium pb-4">
-        Public Input Form (online link):{' '}
-        <a
-          href="https://www.surveymonkey.com/r/lastatehistoricparkgpa"
-          target="_blank"
-          className="text-blue-500 underline font-bold"
-        >
-          Click here
-        </a>
+      <div className="font-medium pt-4">
+        If you wish to receive plan and meeting notifications, please sign up by
+        clicking the button under “Sign up to receive LASHP General Plan
+        Amendment information.”{' '}
       </div>
-      <MaterialsExpandable props={publicInputForms} />
     </section>
   );
 };
