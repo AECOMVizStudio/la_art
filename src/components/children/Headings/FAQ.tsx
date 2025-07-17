@@ -3,7 +3,7 @@ const faq = [
   {
     question: "What is Metro's role in the LA ART project?",
     answer:
-      "The Los Angeles County Metropolitan Transportation Authority (Metro) is the lead agency under CEQA for the LA ART project's environmental review.  In February 2024, Metro approved the proposed LA ART project and certified its Final Environmental Impact Report with mitigation measures and conditions, including the LASHP GPA.",
+      "The Los Angeles County Metropolitan Transportation Authority (Metro) is the lead agency under the California Environmental Quality Act (CEQA) for the LA ART project's environmental review. In February 2024, Metro approved the proposed LA ART project and certified its Final Environmental Impact Report (EIR) with mitigation measures and conditions, including the LASHP GPA",
   },
   {
     question: 'What is the LA ART project status following the decision by the Court of Appeal?',

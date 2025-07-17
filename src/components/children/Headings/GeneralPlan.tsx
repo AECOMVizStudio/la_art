@@ -6,7 +6,7 @@ const GeneralPlan = () => {
         Los Angeles State Historic Park (LASHP) General Plan Amendment (GPA)
       </h2>
       <p className="font-medium pt-4">
-       California State Parks is considering an amendment to the Los Angeles State Historic Park (LASHP) General Plan (GPA). This proposed GPA would add a transit land use to the General Plan, allowing for consideration and review of the proposed Los Angeles aerial rapid transit gondola project. If you wish to be
+       California State Parks is considering an amendment to the Los Angeles State Historic Park (LASHP) General Plan. This proposed General Plan Amendment would add a transit land use to the General Plan, allowing for consideration and review of the proposed Los Angeles aerial rapid transit gondola project. If you wish to be
         involved and provide input, please join our email list by clicking the
         button under “Sign up to receive LASHP General Plan Amendment
         information.”

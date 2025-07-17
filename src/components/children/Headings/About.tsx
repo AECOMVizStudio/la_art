@@ -36,9 +36,8 @@ const About = () => {
       </h2>
 
       <p className="font-medium pt-4">
-        State Parks has determined that a GPA to the LASHP General Plan is
-        needed to allow for public transit to the LASHP and allow consideration
-        and review of the proposed LA ART public transit use and facility.
+        State Parks has determined that an amendment to the LASHP General Plan is needed to allow for public 
+        transit to the LASHP and allow consideration and review of the proposed LA ART public transit use and facility
       </p>
 
       <p className="font-medium pt-4">
@@ -53,9 +52,8 @@ const About = () => {
       <p className="font-medium pt-4">
         State Parks' GPA process involves a public outreach effort to gather
         input to help inform the Department's consideration of the LASHP GPA and
-        the LA ART project. There will be multiple opportunities for the public
-        to comment and provide input to the proposed action. California State
-        Parks will conduct several public meetings throughout the GPA process to
+        the LA ART project. There will be multiple opportunities for the public to comment and provide input on the proposed action. 
+        California State Parks will conduct several public meetings throughout the GPA process to
         provide information and receive comments and input.
       </p>
       <Expandable props={diagrams} />
@@ -70,7 +68,7 @@ const About = () => {
           </p>
           <p>c/o LASHP GPA</p>
           <p>PO Box 942896 </p>
-          <p>Sacramento CA 94296-0001</p>
+          <p>Sacramento, CA 94296-0001</p>
         </div>
       </div>
       
