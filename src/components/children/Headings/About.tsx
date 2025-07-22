@@ -37,7 +37,7 @@ const About = () => {
 
       <p className="font-medium pt-4">
         State Parks has determined that an amendment to the LASHP General Plan is needed to allow for public 
-        transit to the LASHP and allow consideration and review of the proposed LA ART public transit use and facility.
+        transit to LASHP and to allow consideration and review of the proposed LA ART public transit use and facility.
       </p>
 
       <p className="font-medium pt-4">

@@ -31,7 +31,7 @@ const faq = [
     question:
       `Will there be opportunities to provide input and public comment during the GPA process?`,
     answer:
-      `State Parks' GPA process will involve a public outreach effort to gather input to help inform the department's consideration of the project. There will be multiple opportunities for the public to comment and provide input to the proposed action. This will include a hearing at a scheduled SPRC meeting.`,
+      `State Parks' GPA process will involve a public outreach effort to gather input to help inform the Department's consideration of the project. There will be multiple opportunities for the public to comment and provide input to the proposed action. This will include a hearing at a scheduled SPRC meeting.`,
   },
   {
     question:
