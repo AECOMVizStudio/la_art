@@ -8,7 +8,7 @@ const faq = [
   {
     question: 'What is the LA ART project status following the decision by the Court of Appeal?',
     answer:
-      `The Los Angeles Superior Court upheld Metro's certification of the Final EIR in August 2024.  In May 2025, the Court of Appeal reversed the Superior Court in part and directed Metro to set aside its certification of the EIR and approval of the project. Metro must also undertake analysis consistent with the Court of Appeal's opinion before reapproving the project.  Metro will need to recertify the Final EIR prior to the State Parks and Recreation Commission (SPRC) review and approval of the Los Angeles State Historic Park (LASHP) General Plan Amendment (GPA).   `,
+      `The Los Angeles Superior Court upheld Metro's certification of the Final EIR in August 2024.  In May 2025, the Court of Appeal reversed the Superior Court in part and directed Metro to set aside its certification of the EIR and approval of the project. Metro must also undertake analysis consistent with the Court of Appeal's opinion before reapproving the project.  Metro will need to recertify the Final EIR prior to the State Parks and Recreation Commission's (SPRC) review and consideration of approval of the Los Angeles State Historic Park (LASHP) General Plan Amendment (GPA).   `,
   },
   {
     question:
